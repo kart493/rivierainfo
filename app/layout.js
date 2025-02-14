@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'G-R40NJB7Y09');
+          gtag('config', 'G-PZZK60VJSZ');
         `}
       </Script>
       <body className={`${inter.className} min-h-screen bg-black text-white`}>
