@@ -1,0 +1,126 @@
+{
+    "events": [
+      {
+        "title": "Mystery Master",
+        "club": "Hindi Literary Association and Cubing Club",
+        "description": "Mystery masters is an event in which you have to solve mystery and puzzles.",
+        "time": "5:30 PM - 9:30 PM",
+        "date": "20/2/2025",
+        "participants": "Solo",
+        "fee": "Rs. 100/-",
+        "image": "https://i.imgur.com/LTsoBOO.jpeg",
+        "tags": ["puzzle", "Thrill Games"],
+        "link": "https://riviera.vit.ac.in/events/evt_4586e2322c83434ba24bd7f56e4353e2"
+      },
+      {
+        "title": "Bear the Bull",
+        "club": "Bulls and Bears club",
+        "description": "Test your grit and balance on the Mechanical Bull Ride! Hold on tight and see how long you can last as the bull bucks and spins!",
+        "time": "7:30 PM - 1:30 AM",
+        "date": "19/2/2025",
+        "participants": "Solo",
+        "fee": "Rs. 127/-",
+        "image": "https://i.imgur.com/glnph9y.png",
+        "tags": ["Macho games", "Thrill Games", "Physically exerting events"],
+        "link": "https://riviera.vit.ac.in/events/evt_4a418e4f650943b7822a6f16b2c6a936"
+      },
+      {
+        "title": "Alpha Leader: The Ultimate Best Manager Challenge",
+        "club": "VITBS",
+        "description": "A thrilling team-based treasure hunt testing students on across business domains.",
+        "time": "6:30 PM - 12:30 AM",
+        "date": "20/2/2025",
+        "participants": "Solo",
+        "fee": "Rs. 150/-",
+        "image": "https://i.imgur.com/PMTmQXO.jpeg",
+        "tags": ["Treasure hunt", "Entrepreneurial", "Thrill Games"],
+        "link": "https://riviera.vit.ac.in/events/evt_4b452a0da2cb4debbbde2a24b4001d32"
+      },
+      {
+        "title": "Art Therapy 2.0",
+        "club": "LEO CLUB",
+        "description": "Unwind and express yourself at Art Therapy, a relaxing event where you can paint tote bags and canvases. Discover the joy of creativity and the calming power of art. Materials provided—just bring your imagination!",
+        "time": "7:30 PM - 1:30 AM",
+        "date": "19/2/2025",
+        "participants": "Solo",
+        "fee": "Rs. 150/-",
+        "image": "https://i.imgur.com/oppJgGb.jpeg",
+        "tags": ["Art & Craft", "Calming games"],
+        "link": "https://riviera.vit.ac.in/events/evt_4e18b397e6ef4b08a291b64726698449"
+      },
+      {
+        "title": "Detective's Dilemma",
+        "club": "Cubing Club",
+        "description": "Step into the shoes of a detective and crack the case before time runs out.",
+        "time": "5:30 PM - 9:30 PM",
+        "date": "20/2/2025",
+        "participants": "4-5 members",
+        "fee": "Rs. 120/-",
+        "image": "https://i.imgur.com/0x5eyV0.png",
+        "tags": ["puzzle", "Thrill Games"],
+        "link": "https://riviera.vit.ac.in/events/evt_50d424aa4f6245e08a3db99f323b6ad9"
+      },
+      {
+        "title": "Heist at the Louvre",
+        "club": "French Literary Association (FLA)",
+        "description": "Heist at the Louvre is an exciting escape room where participants team up to execute a daring art heist, solving puzzles and uncovering clues inspired by French culture and history.",
+        "time": "5:30 PM - 1:30 AM",
+        "date": "20/2/2025",
+        "participants": "2-5 members",
+        "fee": "Rs. 120/-",
+        "image": "https://i.imgur.com/3kxJoOG.jpeg",
+        "tags": ["puzzle", "Thrill Games", "Treasure hunt"],
+        "link": "https://riviera.vit.ac.in/events/evt_50e6bb736bd340f7bce50dc52ec4539a"
+      },
+      {
+        "title": "Trial of the Immortals",
+        "club": "The Next Chapter - Book Club",
+        "description": "From thunderous gods to mischievous tricksters, watch as your favorite (or most despised) immortals are put on the stand and judged for their epic deeds (and misdeeds!). Join us to serve some legendary justice in Trial of The Immortals!",
+        "time": "5:30 PM - 1:30 AM",
+        "date": "20/2/2025",
+        "participants": "Solo",
+        "fee": "Rs. 85/-",
+        "image": "https://i.imgur.com/6asgSmX.jpeg",
+        "tags": ["Watch", "Speaking", "tv show"],
+        "link": "https://riviera.vit.ac.in/events/evt_54da37115abe4534bf42156e4026dd04"
+      },
+      {
+        "title": "Zumba Party",
+        "club": "Sports Dept",
+        "description": "An energetic Zumba party to groove and have fun.",
+        "time": "12:30 AM - 3:30 AM",
+        "date": "19/2/2025",
+        "participants": "Solo",
+        "fee": "Rs. 127/-",
+        "image": "https://i.imgur.com/3idq6oH.jpeg",
+        "tags": ["Dance", "Music", "Physically exerting events"],
+        "link": "https://riviera.vit.ac.in/events/evt_55d452a3f46a4d9f9ea492ed124cb6ff"
+      },
+      {
+        "title": "The Riviera Mythology Quiz",
+        "club": "Quiz Club",
+        "description": "Explore gods, legends, and epic tales from across the world. From ancient myths to timeless folklore, showcase your mastery and be crowned the mythology expert!",
+        "time": "7:30 PM - 1:30 AM",
+        "date": "19/2/2025",
+        "participants": "2 Members",
+        "fee": "Rs. 127/-",
+        "prize": "₹15,000",
+        "image": "https://i.imgur.com/QlNKEIF.jpeg",
+        "tags": ["Quiz", "Traditional"],
+        "link": "https://riviera.vit.ac.in/events/evt_589d83cef0f440c1a059176213398bd7"
+      },
+      {
+        "title": "Soap Football",
+        "club": "Rotaract Club and Becoming I Foundation - VIT",
+        "description": "Players of 5 per team come to play football on a soapy platform and have fun.",
+        "time": "5:30 PM - 1:30 AM",
+        "date": "20/2/2025",
+        "participants": "5 members",
+        "fee": "Rs. 250/-",
+        "image": "https://i.imgur.com/EJjwUH5.png",
+        "tags": ["Physically exerting events", "Macho games", "Thrill Games"],
+        "link": "https://riviera.vit.ac.in/events/evt_58bae6f1cbad4fc0900a87977eed3905"
+      }
+    ]
+  }
+  

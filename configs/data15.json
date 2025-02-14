@@ -1,0 +1,115 @@
+{
+    "events": [
+      {
+        "title": "Space Wizard Chess",
+        "club": "STUDENTS FOR THE EXPLORATION AND DEVELOPMENT OF SPACE (SEDS)",
+        "description": "Space Wizard Chess combines cosmic strategy, mystical combat, and unique piece abilities in a thrilling 4x8 battlefield, led by powerful wizards, testing both mind and mettle!",
+        "time": "7:30 PM - 1:30 AM",
+        "date": "20/2/2023",
+        "participants": "4 members",
+        "price": "75",
+        "tags": ["Board Games", "Puzzle", "Thrill Games"],
+        "link": "https://riviera.vit.ac.in/events/evt_e08e22acef8343cbbe96060cd604af0b"
+      },
+      {
+        "title": "The Recovery Rush",
+        "club": "ANTI-DRUG CLUB",
+        "description": "A thrilling adventure where participants follow clues, solve riddles, and explore locations to find hidden treasures and rewards. Teams race against time, navigating challenges, deciphering cryptic messages, and overcoming obstacles, all while competing for the ultimate prize.",
+        "time": "5:30 PM - 12:30 AM",
+        "date": "22/2/2025",
+        "participants": "3 members",
+        "price": "199",
+        "tags": ["Treasure hunt", "Puzzle", "Thrill Games"],
+        "link": "https://riviera.vit.ac.in/events/evt_e39dacf03cfb4a24a1d3dbfc83b0f22f"
+      },
+      {
+        "title": "Shadows of the Unknown",
+        "club": "THE INSTRUMENT SOCIETY OF INDIA (ISOI)",
+        "description": "A mystery-solving challenge where teams decode puzzles, hidden messages, and twists to solve a central mystery. It tests teamwork, problem-solving, and creativity.",
+        "time": "6:30 PM - 10:30 PM",
+        "date": "20/2/2025",
+        "participants": "2-4 members",
+        "price": "70",
+        "tags": ["Puzzle", "Thrill Games", "Speaking"],
+        "link": "https://riviera.vit.ac.in/events/evt_e517be27bcfb49478a333e288071061c"
+      },
+      {
+        "title": "Futsal Fiesta 2.0",
+        "club": "Bengali Literary Association (BLA)",
+        "description": "Experience the thrill of Futsal Fiesta 2.0: A 5v5 football extravaganza.",
+        "time": "5:30 PM - 10:30 PM",
+        "date": "20/2/2025",
+        "participants": "5-7 Members",
+        "price": "150",
+        "tags": ["Physically exerting events", "Macho games", "Thrill Games"],
+        "link": "https://riviera.vit.ac.in/events/evt_ea3621e84c194383ad95be22846cd604"
+      },
+      {
+        "title": "Paintball Arena",
+        "club": "VIT SPARTANS",
+        "description": "Gear up and unleash your inner warrior in an action-packed Paintball challenge! Strategize with your team, aim, and shoot your way to victory in this thrilling battle simulation. Get ready for an adrenaline rush like never before!",
+        "time": "7:30 PM - 1:30 AM",
+        "date": "19/2/2025",
+        "participants": "Solo",
+        "price": "350",
+        "tags": ["Physically exerting events", "Thrill Games", "Macho games"],
+        "link": "https://riviera.vit.ac.in/events/evt_eea17db0538244668d65e6ef4357dd0f"
+      },
+      {
+        "title": "Battle It Out",
+        "club": "VIT Dance Club",
+        "description": "A high-energy one-on-one dance battle where skill, style, and creativity decide the champion.",
+        "time": "9:30 PM - 1:30 AM",
+        "date": "22/2/2025",
+        "participants": "Solo",
+        "price": "210",
+        "tags": ["Dance", "Physically exerting events", "Thrill Games"],
+        "link": "https://riviera.vit.ac.in/events/evt_eed98301a04542ce8d21a0773b45da63"
+      },
+      {
+        "title": "Casinova 3.0: The Mystery Edition",
+        "club": "Bulls and Bears Club",
+        "description": "Casinova 3.0: The Mystery Edition is a thrilling finance-themed escape room featuring challenges like Bear Pong, Angry Birds Knockout, puzzles, and the Split or Steal dilemma. Test your strategy, teamwork, and decision-making to unlock the vault of riches!",
+        "time": "5:30 PM - 1:30 AM",
+        "date": "20/2/2025",
+        "participants": "3 members",
+        "price": "170",
+        "tags": ["Puzzle", "Thrill Games", "Entrepreneurial"],
+        "link": "https://riviera.vit.ac.in/events/evt_eee11c359a60435a97ed70be30a6ae1a"
+      },
+      {
+        "title": "Shuffle the Board - Chess 960 Championship",
+        "club": "BOARD GAMER'S CLUB",
+        "description": "Shuffle the Board is a thrilling Chess 960 tournament where strategy meets unpredictability, featuring 7 Swiss rounds and rapid 10+5 gameplay.",
+        "time": "5:30 PM - 1:30 AM",
+        "date": "20/2/2025",
+        "participants": "Solo",
+        "price": "200",
+        "tags": ["Board Games", "Puzzle", "Thrill Games"],
+        "link": "https://riviera.vit.ac.in/events/evt_ef936488d6c34f7eaa49b91f22cd706a"
+      },
+      {
+        "title": "The Riviera India Quiz",
+        "club": "QUIZ CLUB",
+        "description": "Dive into India's rich heritage and vibrant present with questions on culture, history, and current affairs. Showcase your expertise and claim the title of India Quiz champion!",
+        "time": "6:30 PM - 12:30 AM",
+        "date": "20/2/2025",
+        "participants": "2 Members",
+        "price": "127",
+        "tags": ["Quiz", "Traditional", "Speaking"],
+        "link": "https://riviera.vit.ac.in/events/evt_f14fe4629aee4c4198b435b6ba127530"
+      },
+      {
+        "title": "Monopoly",
+        "club": "CUBING CLUB",
+        "description": "Join us for Monopoly, an exciting fusion of strategy and skill! Test your wits in thrilling board game matches and conquer challenging cube-solving puzzles to win big.",
+        "time": "5:30 PM - 1:30 AM",
+        "date": "22/2/2025",
+        "participants": "4 members",
+        "price": "120",
+        "tags": ["Board Games", "Puzzle", "Thrill Games"],
+        "link": "https://riviera.vit.ac.in/events/evt_f1f87add2c3f455192ff38274e6f4ad9"
+      }
+    ]
+  }
+  

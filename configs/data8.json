@@ -1,0 +1,115 @@
+{
+  "events": [
+    {
+      "title": "Kalaa 2.0",
+      "club": "Anokha NGO",
+      "time": "7:30 PM - 1:30 AM",
+      "date": "19/2/2025",
+      "participants": "Solo",
+      "fee": "Rs. 150/-",
+      "tags": ["Art & Craft", "Traditional"],
+      "link": "https://riviera.vit.ac.in/events/evt_6d11fa75b137436297b8cf565a26d5b2"
+    },
+    {
+      "title": "Celestial Combat",
+      "club": "Astronomy Club - VIT Stellar",
+      "description": "A Gel Blaster battle. Capture the Flags of all your Opponent teams to Win the Match.",
+      "time": "9:30 PM - 12:30 AM",
+      "date": "19/2/2025",
+      "participants": "4 members",
+      "fee": "Rs. 127/-",
+      "tags": ["Thrill Games", "Physically exerting events"],
+      "link": "https://riviera.vit.ac.in/events/evt_6ef7f94c1fa847ca9ec890e3075a41ea"
+    },
+    {
+      "title": "Dream World Film Festival",
+      "club": "VIT FILM SOCIETY (VFS)",
+      "description": "The films will be screened and judged by the board members, club members and the guests.",
+      "prize": "₹15,000",
+      "time": "5:30 PM - 1:30 AM",
+      "date": "22/2/2025",
+      "participants": "5 members",
+      "fee": "Rs. 200/-",
+      "tags": ["Watch", "Art & Craft"],
+      "link": "https://riviera.vit.ac.in/events/evt_7160ab412bb647bcbc1ec16e6b2effae"
+    },
+    {
+      "title": "The Sorcerer's Quest (escape the magic)",
+      "club": "ANIMATION CLUB",
+      "description": "This event is themed on Harry Potter where you can choose your class, solve unique puzzles, and work together to escape the room before time runs out!",
+      "time": "5:30 PM - 1:30 AM",
+      "date": "21/2/2025",
+      "participants": "5 members",
+      "fee": "Rs. 150/-",
+      "tags": ["puzzle", "Thrill Games"],
+      "link": "https://riviera.vit.ac.in/events/evt_722923e9d9e3445aafbcaa81a2a77066"
+    },
+    {
+      "title": "Space Maze",
+      "club": "STUDENTS FOR THE EXPLORATION AND DEVELOPMENT OF SPACE (SEDS)",
+      "description": "Two teams race through cosmic obstacles, navigating asteroid fields, solving puzzles, and outsmarting each other to claim the title of Galactic Champions with the beacon of victory waiting at the finish line.",
+      "time": "7:30 PM - 12:30 AM",
+      "date": "19/2/2025",
+      "participants": "2 members",
+      "fee": "Rs. 50/-",
+      "tags": ["puzzle", "Thrill Games"],
+      "link": "https://riviera.vit.ac.in/events/evt_75299945199c400abdcad4c9872311d8"
+    },
+    {
+      "title": "Powerlifting Championship 3.0",
+      "club": "Fitness and Beyond",
+      "description": "Unleash your inner strength and witness raw power as participants take on the ultimate test of lifting might.",
+      "time": "5:30 PM - 1:30 AM",
+      "date": "21/2/2025",
+      "participants": "Solo",
+      "fee": "Rs. 250/-",
+      "tags": ["Physically exerting events", "Macho games"],
+      "link": "https://riviera.vit.ac.in/events/evt_75374fcb28d3453997a2c20a5eb18771"
+    },
+    {
+      "title": "AdZap 2025: The Ultimate Creative Showdown",
+      "club": "Anchoring Club",
+      "description": "A fun-filled advertisement making competition. Challenges participants to use humour, catchy jingles, and engaging stories to transform the art of advertising. Participants plan, design and present advertisements for a topic provided on the spot.",
+      "prize": "₹15,000",
+      "time": "5:30 PM - 1:30 AM",
+      "date": "20/2/2025",
+      "participants": "3 - 5 Members",
+      "fee": "Rs. 150/-",
+      "tags": ["Entrepreneurial", "Speaking", "Art & Craft"],
+      "link": "https://riviera.vit.ac.in/events/evt_75941d474e9240058e85ce55cd3e1d26"
+    },
+    {
+      "title": "Go Karting",
+      "club": "SAE",
+      "time": "7:30 PM - 1:30 AM",
+      "date": "19/2/2025",
+      "participants": "Solo",
+      "fee": "Rs. 300/-",
+      "tags": ["Thrill Games", "Physically exerting events"],
+      "link": "https://riviera.vit.ac.in/events/evt_76ea8a68ff384eab8de54cfa7802acb0"
+    },
+    {
+      "title": "Mocktail Soiree 2.0",
+      "club": "Culinary Club",
+      "description": "Mocktail Soiree 2.0: A fun and interactive challenge where participants taste a crafted mocktail, identify its ingredients, and recreate the drink by matching its flavor, showcasing creativity and exploring the art of mixology!",
+      "time": "5:30 PM - 1:30 AM",
+      "date": "20/2/2025",
+      "participants": "1-2 members",
+      "fee": "Rs. 120/-",
+      "tags": ["Cooking & Drinks", "Art & Craft"],
+      "link": "https://riviera.vit.ac.in/events/evt_775693999bb34253b5dbb3a79a6583a2"
+    },
+    {
+      "title": "Thalia & Melpomene",
+      "club": "VIT Dramatics Club",
+      "description": "A stage play competition for teams of 6-15 participants to showcase their theatrical storytelling skills with impactful scripts and creative stage utilization.",
+      "prize": "₹45,000",
+      "time": "5:30 PM - 1:30 AM",
+      "date": "21/2/2025",
+      "participants": "7-20 Members",
+      "fee": "Rs. 180/-",
+      "tags": ["Speaking", "Art & Craft", "Watch"],
+      "link": "https://riviera.vit.ac.in/events/evt_77d2436701194d5197613b8b8b6d3f56"
+    }
+  ]
+}

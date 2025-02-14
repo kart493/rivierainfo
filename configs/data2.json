@@ -1,0 +1,123 @@
+[
+    {
+      "title": "Cultural Rhythms",
+      "club": "Juvenile Care",
+      "description": "Staged in front of the SMV Portico, Cultural Rhythms spreads awareness about our social work, promotes fundraising through our stall, and showcases our dedication to helping underprivileged children.",
+      "time": "11:30 PM - 12:30 AM",
+      "date": "21/2/2025",
+      "participants": "Solo",
+      "fee": "Rs. 0/-",
+      "image": "https://i.imgur.com/sNMHoE1.png",
+      "tags": ["Music", "Dance", "Traditional"],
+      "link": "https://riviera.vit.ac.in/events/evt_16342c190d3048608406d97addd7b271"
+    },
+    {
+      "title": "Squid Game",
+      "club": "Rotaract Club",
+      "description": "The game 'Squid Game' involves six rounds of competitive tasks where teams face unique challenges like quick naming, emoji decoding, drawing charades, absurd responses, guessing famous personalities, and showcasing talents under specific conditions. Teams earn points based on creativity, speed, and accuracy across the rounds, with penalties for cheating or irrelevant responses.",
+      "time": "5:30 PM - 1:30 AM",
+      "date": "20/2/2025",
+      "participants": "2-4 members",
+      "fee": "Rs. 100/-",
+      "image": "https://i.imgur.com/ly11qoy.jpeg",
+      "tags": ["Thrill Games", "puzzle", "Speaking", "Art & Craft"],
+      "link": "https://riviera.vit.ac.in/events/evt_17b578f4bfc24c4096ce30f05b42505b"
+    },
+    {
+      "title": "Smash Room",
+      "club": "SOS",
+      "description": "Step into the Rage Room, a space to shatter stress and unleash your inner rage! Alone or with up to 5 friends, gear up, grab tools, and break your way to pure relief. Smash, shatter, and let go—your ultimate stress escape awaits!",
+      "time": "5:30 PM - 1:30 AM",
+      "date": "22/2/2025",
+      "participants": "5 members",
+      "fee": "Rs. 150/-",
+      "image": "https://i.imgur.com/k6xu7aw.jpeg",
+      "tags": ["Thrill Games", "Physically exerting events", "Macho games"],
+      "link": "https://riviera.vit.ac.in/events/evt_18697a77a06749ca93e67a71b6f62ae5"
+    },
+    {
+      "title": "Music Production Masterclass",
+      "club": "VIT Music Club",
+      "description": "Join us on a hands-on workshop with some of the best producers and mixers in town, about the basics of production, mixing and work on a sample track by yourself.",
+      "time": "10:30 PM - 1:30 AM",
+      "date": "19/2/2025",
+      "participants": "Solo",
+      "fee": "Rs. 250/-",
+      "image": "https://i.imgur.com/29HhCbV.jpeg",
+      "tags": ["Music", "Entrepreneurial"],
+      "link": "https://riviera.vit.ac.in/events/evt_1874d07594d14d7088c2f7872c80aa5e"
+    },
+    {
+      "title": "D BIGG BOSS",
+      "club": "KANNADA LITERARY ASSOCIATION (KLA-KANNADA KASTHURI)",
+      "description": "This event is an exact replica of the reality show Big Boss.",
+      "time": "6:30 PM - 11:30 PM",
+      "date": "20/2/2025",
+      "participants": "Solo",
+      "fee": "Rs. 150/-",
+      "image": "https://i.imgur.com/qIiy1pw.png",
+      "tags": ["tv show", "Speaking", "Watch"],
+      "link": "https://riviera.vit.ac.in/events/evt_189c37d8acad43018e5aae6f70d711da"
+    },
+    {
+      "title": "Spartans Carnival",
+      "club": "VIT Spartans",
+      "description": "Join us for a fun-filled carnival with exciting games, fun and laughter all designed for students to enjoy a day of entertainment and friendly competition!",
+      "time": "7:30 PM - 10:30 PM",
+      "date": "19/2/2025",
+      "participants": "Solo",
+      "fee": "Rs. 0/-",
+      "image": "https://i.imgur.com/WstJiFm.png",
+      "tags": ["Thrill Games", "Physically exerting events", "Board Games"],
+      "link": "https://riviera.vit.ac.in/events/evt_1966473a882c47d283b01533b9e96ae3"
+    },
+    {
+      "title": "Pillow Fight",
+      "club": "Creativity Club",
+      "description": "Nostalgic household game of pillow fight.",
+      "time": "5:30 PM - 1:30 AM",
+      "date": "20/2/2025",
+      "participants": "Solo",
+      "fee": "Rs. 125/-",
+      "image": "https://i.imgur.com/xEIOCXz.png",
+      "tags": ["Physically exerting events", "Macho games"],
+      "link": "https://riviera.vit.ac.in/events/evt_19f96cc25b3f4b42823488f9938e4e08"
+    },
+    {
+      "title": "Escape & Expose",
+      "club": "Leo Club",
+      "description": "Teams navigate a maze to earn points, with top teams gaining an advantage in the next round, where assistants use minimal clues to help their investigator identify a criminal from photos, and the most efficient team wins.",
+      "time": "7:30 PM - 1:30 AM",
+      "date": "19/2/2025",
+      "participants": "Solo",
+      "fee": "Rs. 100/-",
+      "image": "https://i.imgur.com/Fvkn0id.jpeg",
+      "tags": ["Treasure hunt", "puzzle", "Thrill Games"],
+      "link": "https://riviera.vit.ac.in/events/evt_1aade3e668244afea159005aa4b3c3ec"
+    },
+    {
+      "title": "AAP KI ADAALAT",
+      "club": "Hindi Literary Association (HLA)",
+      "description": "Each participant will be accusing their friends of 3 playful crimes, based on which they will be tried in our courtroom. They will be judged on how they defend themselves, and one participant will be crowned the winner.",
+      "time": "6:30 PM - 12:30 AM",
+      "date": "20/2/2025",
+      "participants": "Solo",
+      "fee": "Rs. 127/-",
+      "image": "https://i.imgur.com/T8Xx5tK.jpeg",
+      "tags": ["Speaking", "tv show", "Quiz"],
+      "link": "https://riviera.vit.ac.in/events/evt_2050a75848e0478bb2292ea6b923e1d0"
+    },
+    {
+      "title": "Lowkey-Viral",
+      "club": "Visual Bloggers Club",
+      "description": "Lowkey-Viral: Turn reels into deals—create trending content with surprise audio and snag some cheesy prize money!",
+      "time": "7:30 PM - 11:30 PM",
+      "date": "19/2/2025",
+      "participants": "4-5 Members",
+      "fee": "Rs. 100/-",
+      "image": "https://i.imgur.com/pSUTKT4.jpeg",
+      "tags": ["Entrepreneurial", "Music", "Art & Craft"],
+      "link": "https://riviera.vit.ac.in/events/evt_2075e6878b4340e798d50881942c3d19"
+    }
+  ]
+  

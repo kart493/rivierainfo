@@ -1,0 +1,77 @@
+{
+  "events": [
+    {
+      "title": "Arm Wrestling 2.0",
+      "category": "Fitness and Beyond",
+      "description": "Engage in a thrilling showdown of upper body strength and mental fortitude. Challenge your peers and emerge as the arm wrestling champion.",
+      "time": "6:30 PM - 9:30 PM",
+      "date": "22/2/2025",
+      "participants": "Solo",
+      "entry_fee": "Rs. 150/-",
+      "image": "https://i.imgur.com/EdUY6LW.png",
+      "tags": ["Physically exerting events", "Macho games", "Thrill Games"],
+      "link": "https://riviera.vit.ac.in/events/evt_f54bea767ed149769dc036b1525bcc57"
+    },
+    {
+      "title": "The Riviera General Quiz",
+      "category": "QUIZ CLUB",
+      "description": "Test your knowledge across everything under the sun and beyond, from history and science to pop culture and current affairs. Prove your mettle as the ultimate quizmaster!",
+      "time": "6:30 PM - 12:30 AM",
+      "date": "22/2/2025",
+      "participants": "2 Members",
+      "entry_fee": "Rs. 127/-",
+      "prize": "₹15,000",
+      "image": "https://i.imgur.com/cIxqYeH.jpeg",
+      "tags": ["Quiz", "Speaking"],
+      "link": "https://riviera.vit.ac.in/events/evt_fb9ef4cd26c74c739fd50d5db3122a7c"
+    },
+    {
+      "title": "Shipwreck Showdown",
+      "category": "SOCIETY FOR INDUSTRIAL AND APPLIED MATHEMATICS (SIAM-VIT)",
+      "description": "A pirate themed event where teams play 5 different games that challenges their teamwork, strategy and skill.",
+      "time": "5:30 PM - 1:30 AM",
+      "date": "21/2/2025",
+      "participants": "1-4 members",
+      "entry_fee": "Rs. 200/-",
+      "image": "https://i.imgur.com/esI0bWB.png",
+      "tags": ["Thrill Games", "Puzzle", "Treasure hunt"],
+      "link": "https://riviera.vit.ac.in/events/evt_fd5e94db039b458fbc73b0e2e328220f"
+    },
+    {
+      "title": "Kalakriti",
+      "category": "DRAMATICS CLUB",
+      "description": "Kalakriti is an immersive acting workshop designed to hone creativity, expression, and performance skills through hands-on techniques and expert guidance.",
+      "time": "7:30 PM - 11:30 PM",
+      "date": "19/2/2025",
+      "participants": "Solo",
+      "entry_fee": "Rs. 150/-",
+      "image": "https://i.imgur.com/9qWBmpu.jpeg",
+      "tags": ["Art & Craft", "Speaking"],
+      "link": "https://riviera.vit.ac.in/events/evt_fd655219f0cf4e908c045d13c6b72c47"
+    },
+    {
+      "title": "VIT's Got Latent",
+      "category": "MATRIX THE MULTIMEDIA CLUB & Odisha Literary Association",
+      "description": "Step into the spotlight with VIT's Got Latent – Riviera's ultimate talent extravaganza! From electrifying comedy and soulful songs to captivating dramas and jaw-dropping art, the stage is set for you to shine. With hilarious external judges, thrilling audience voting, and a huge prize pool waiting to be claimed, this is your moment to dazzle the crowd and leave your mark.",
+      "time": "7:30 PM - 1:30 AM",
+      "date": "19/2/2025",
+      "participants": "Solo",
+      "entry_fee": "Rs. 250/-",
+      "image": "https://i.imgur.com/CTNYPDq.jpeg",
+      "tags": ["Art & Craft", "Speaking", "Music"],
+      "link": "https://riviera.vit.ac.in/events/evt_fef8899c2ff24f97b9ecb24143a565f6"
+    },
+    {
+      "title": "Spartans Grand Prix",
+      "category": "VIT SPARTANS",
+      "description": "Experience the Grand Prix remote control cars will be tackling an obstacle field race track.",
+      "time": "6:30 PM - 1:30 AM",
+      "date": "21/2/2025",
+      "participants": "Solo",
+      "entry_fee": "Rs. 200/-",
+      "image": "https://i.imgur.com/bUaddRn.jpeg",
+      "tags": ["Thrill Games", "E-Sports"],
+      "link": "https://riviera.vit.ac.in/events/evt_ffb9825ff14d492d81774cfd9e2d26d7"
+    }
+  ]
+}

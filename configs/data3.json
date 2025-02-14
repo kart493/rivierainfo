@@ -1,0 +1,94 @@
+{
+  "events": [
+    {
+      "title": "SMRITI '25 – Lalitam Madhuram (Light Music)",
+      "club": "Malayalam Literary Association - MLA",
+      "description": "Where voices rise and emotions soar! Step into the spotlight and make your mark in this musical showdown.",
+      "time": "5:30 PM - 1:30 AM",
+      "date": "22/2/2025",
+      "participants": "Solo",
+      "entry_fee": "Rs. 150/-",
+      "tags": ["Music", "singing", "Malayalam"],
+      "link": "https://riviera.vit.ac.in/events/evt_216d7942d8e94084a92a8164f4959b0d"
+    },
+    {
+      "title": "Crescendo",
+      "club": "VIT Music Club",
+      "description": "Crescendo is a celebration of instrumental music, giving performers the spotlight to showcase their mastery.",
+      "time": "7:30 PM - 1:30 AM",
+      "date": "19/2/2025",
+      "participants": "Solo",
+      "entry_fee": "Rs. 350/-",
+      "prize": "₹15,000",
+      "tags": ["Music", "Watch"],
+      "link": "https://riviera.vit.ac.in/events/evt_21ef45a259ac4d32ba507303bd1104fd"
+    },
+    {
+      "title": "Imposter",
+      "club": "Cubing Club",
+      "description": "A real-life adaptation of the popular game, where players complete tasks, identify impostors, and survive until the game ends.",
+      "time": "7:30 PM - 1:30 AM",
+      "date": "19/2/2025",
+      "participants": "Solo",
+      "entry_fee": "Rs. 150/-",
+      "tags": ["Thrill Games", "puzzle", "Speaking"],
+      "link": "https://riviera.vit.ac.in/events/evt_2226e51afa5944a397c67ecc5ae6e645"
+    },
+    {
+      "title": "KHALBALI",
+      "club": "VIT Dramatics Club",
+      "description": "A group street play competition where teams of 8-20 participants perform impactful acts on socially relevant themes, with no amplification or derogatory content allowed.",
+      "time": "5:30 PM - 1:30 AM",
+      "date": "22/2/2025",
+      "participants": "20-30 Members",
+      "entry_fee": "Rs. 180/-",
+      "prize": "₹70,000",
+      "tags": ["Speaking", "Traditional", "Watch"],
+      "link": "https://riviera.vit.ac.in/events/evt_23b43f9e535144e5bc84926339fc0133"
+    },
+    {
+      "title": "Survival Showdown - A Horror Escape",
+      "club": "THE AI & ML CLUB - TAM",
+      "description": "A thrilling escape room event where teams solve tasks in a horror-themed setting to unlock the final exit.",
+      "time": "5:30 PM - 1:30 AM",
+      "date": "20/2/2025",
+      "participants": "3-4 members",
+      "entry_fee": "Rs. 120/-",
+      "tags": ["Thrill Games", "puzzle", "Treasure hunt"],
+      "link": "https://riviera.vit.ac.in/events/evt_2777583ebda6432d8d1dfe57378b36fc"
+    },
+    {
+      "title": "Cube Carnival",
+      "club": "CUBING CLUB",
+      "description": "This event combines fun, luck, and speedcubing, where participants earn their cubes through exciting mini-events before racing to solve them.",
+      "time": "5:30 PM - 10:30 PM",
+      "date": "22/2/2025",
+      "participants": "Solo",
+      "entry_fee": "Rs. 100/-",
+      "tags": ["puzzle", "Thrill Games"],
+      "link": "https://riviera.vit.ac.in/events/evt_281fa2483e20486a95440d863d26456e"
+    },
+    {
+      "title": "Urakka Sol",
+      "club": "Tamil Literary Association",
+      "description": "Speak your mind, charm the audience, and claim the spotlight in this battle of words through 'Urakka Sol' event.",
+      "time": "7:30 PM - 10:30 PM",
+      "date": "19/2/2025",
+      "participants": "Solo",
+      "entry_fee": "Rs. 100/-",
+      "tags": ["Speaking", "Tamil"],
+      "link": "https://riviera.vit.ac.in/events/evt_2aa85fadcc1740f39264c664b670a5c2"
+    },
+    {
+      "title": "Housie",
+      "club": "DREAM MERCHANTS",
+      "description": "Experience the thrill of Housie—a fun, fast-paced game that keeps you on the edge of your seat with every number called!",
+      "time": "7:30 PM - 10:30 PM",
+      "date": "19/2/2025",
+      "participants": "Solo",
+      "entry_fee": "Rs. 50/-",
+      "tags": ["Board Games", "Calming games"],
+      "link": "https://riviera.vit.ac.in/events/evt_2b007778999047909799999999999999"
+    }
+  ]
+}

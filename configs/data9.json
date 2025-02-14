@@ -1,0 +1,115 @@
+[
+    {
+      "title": "KINTRACLASH",
+      "club": "VIT Dramatics Club",
+      "cash_prize": "₹35,000",
+      "description": "A silent performance competition for teams of 4-10 participants, where black-and-white-clad artists convey creative and socially relevant stories through expressions and body language.",
+      "time": "7:30 PM - 1:30 AM",
+      "date": "19/2/2025",
+      "participants": "7-15 Members",
+      "entry_fee": "Rs. 180/-",
+      "tags": ["Art & Craft", "Speaking", "Physically exerting events"],
+      "link": "https://riviera.vit.ac.in/events/evt_7d2b1172852f450584607d49c32a7914"
+    },
+    {
+      "title": "Stress relief Terracotta clay modelling session",
+      "club": "UDDESHYA",
+      "description": "Participants will be given a theme, they have to complete their clay model project in 90mins. Participants will be provided with clay, modelling tools, paint.",
+      "time": "9:30 PM - 10:30 PM",
+      "date": "19/2/2025",
+      "participants": "2-5 members",
+      "entry_fee": "Rs. 150/-",
+      "tags": ["Art & Craft", "Calming games"],
+      "link": "https://riviera.vit.ac.in/events/evt_7d3f375c13c7469489f1ce3070ed1987"
+    },
+    {
+      "title": "Raagangal 16",
+      "club": "Tamil Literary Association",
+      "description": "The quest for the most soulful voice begins – are you ready to take the mic?",
+      "time": "10:30 PM - 1:30 AM",
+      "date": "19/2/2025",
+      "participants": "Solo",
+      "entry_fee": "Rs. 100/-",
+      "tags": ["Music", "Singing", "Tamil"],
+      "link": "https://riviera.vit.ac.in/events/evt_7e270482b4a84b108aeca71e3f18a025"
+    },
+    {
+      "title": "Dragons, Dice, and Destiny",
+      "club": "THE NEXT CHAPTER - BOOK CLUB and The Otaku Club",
+      "description": "Join us for an unforgettable Dungeons & Dragons campaign, where every roll of the dice weaves a new chapter. The adventure is yours to create—are you ready to answer the call?",
+      "time": "5:30 PM - 1:30 AM",
+      "date": "21/2/2025",
+      "participants": "5 members",
+      "entry_fee": "Rs. 127/-",
+      "tags": ["Board Games", "Puzzle", "Thrill Games"],
+      "link": "https://riviera.vit.ac.in/events/evt_832cb7c755b64c70bf2fcbd6270fd7ff"
+    },
+    {
+      "title": "Roadies: Thrillville Trials",
+      "club": "Creativity Club",
+      "description": "An electrifying event designed to push participants to their limits through meticulously crafted challenges, testing physical strength, mental agility, strategic thinking, and resilience.",
+      "time": "7:30 PM - 1:30 AM",
+      "date": "22/2/2025",
+      "participants": "1 Member",
+      "entry_fee": "Rs. 150/-",
+      "tags": ["Physically exerting events", "Macho games", "Thrill Games", "TV show"],
+      "link": "https://riviera.vit.ac.in/events/evt_8472d810432440dbbc0aa0c4560dcfdf"
+    },
+    {
+      "title": "Squid Survivors",
+      "club": "IEEE TEMS",
+      "description": "A thrilling Indian adaptation of Squid Games featuring childhood games rooted in Indian tradition. Experience strategy, teamwork, and endurance in this high-stakes competition.",
+      "time": "7:30 PM - 1:30 AM",
+      "date": "19/2/2025",
+      "participants": "Solo",
+      "entry_fee": "Rs. 100/-",
+      "tags": ["Traditional", "Physically exerting events", "Thrill Games", "TV show"],
+      "link": "https://riviera.vit.ac.in/events/evt_871f075e76184ffa961ca75ff060890d"
+    },
+    {
+      "title": "Phantom Files",
+      "club": "Becoming I Foundation",
+      "description": "A murder mystery experience, where teams of 2-4 uncover the hidden truth armed with a detailed case file. Guided by cryptic 'ghost' tips, they piece together evidence across various locations.",
+      "time": "7:30 PM - 1:30 AM",
+      "date": "19/2/2025",
+      "participants": "2-4 members",
+      "entry_fee": "Rs. 165/-",
+      "tags": ["Puzzle", "Thrill Games", "Treasure hunt"],
+      "link": "https://riviera.vit.ac.in/events/evt_872e4fcdad164833af3a9cf7abf1c506"
+    },
+    {
+      "title": "Emerald City: Rizzverse",
+      "club": "IEEE COMPUTER SOCIETY (IEEE-CS)",
+      "description": "A campus-wide, meme-fueled treasure hunt packed with fire riddles, sus vibes, and mog-worthy chaos. Pull up, flex your drip, and prove you're built different!",
+      "time": "5:30 PM - 1:30 AM",
+      "date": "21/2/2025",
+      "participants": "3-6 members",
+      "entry_fee": "Rs. 100/-",
+      "tags": ["Treasure hunt", "Puzzle", "Speaking"],
+      "link": "https://riviera.vit.ac.in/events/evt_877041512c47424f8f93aa90315b828c"
+    },
+    {
+      "title": "Creative Writing",
+      "club": "ENGLISH LITERARY ASSOCIATION (ELA)",
+      "cash_prize": "₹15,000",
+      "description": "Channel your inner Shakespeare and pour your creativity onto paper. Write down your best story, poem or prose to show how you make the best of a given prompt.",
+      "time": "7:30 PM - 8:30 PM",
+      "date": "19/2/2025",
+      "participants": "Solo",
+      "entry_fee": "Rs. 100/-",
+      "tags": ["Art & Craft", "Speaking"],
+      "link": "https://riviera.vit.ac.in/events/evt_8810ac496fb34efabcd445b92abe0732"
+    },
+    {
+      "title": "Aatanayagan",
+      "club": "Tamil Literary Association",
+      "description": "Step into a world of rhythm and grace, where every move tells a story.",
+      "time": "10:30 PM - 1:30 AM",
+      "date": "21/2/2025",
+      "participants": "1 - 5 members",
+      "entry_fee": "Rs. 100/-",
+      "tags": ["Dance", "Tamil", "Traditional"],
+      "link": "https://riviera.vit.ac.in/events/evt_8a0fc93a7abf4cb9958c5dbe3bebf9cd"
+    }
+  ]
+  

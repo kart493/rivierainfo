@@ -1,0 +1,127 @@
+{
+    "events": [
+      {
+        "title": "Raaga Reggae - Eastern BoB",
+        "club": "VIT Music Club",
+        "cash_prize": "₹50,000",
+        "description": "Battle it out with the best bands in the game in our Eastern Fusion Battle of Bands!",
+        "time": "5:30 PM - 9:30 PM",
+        "date": "20/2/2025",
+        "participants": "4-8 Members",
+        "fee": "Rs. 200/-",
+        "image": "https://i.imgur.com/x8cJgCR.jpeg",
+        "tags": ["Music", "Singing", "Traditional"],
+        "link": "https://riviera.vit.ac.in/events/evt_b1e5e94c410241568493c255b8bfe53c"
+      },
+      {
+        "title": "Riviera Fashion Week",
+        "club": "AYUDA",
+        "description": "Where style meets sustainability—create, innovate, and shine at Riviera Fashion Week!✨",
+        "time": "7:30 PM - 1:30 AM",
+        "date": "19/2/2025",
+        "participants": "1-2 Members",
+        "fee": "Rs. 150/-",
+        "image": "https://i.imgur.com/lIbFkKu.png",
+        "tags": ["Art & Craft", "Speaking", "Entrepreneurial"],
+        "link": "https://riviera.vit.ac.in/events/evt_b586178c178646e191ffa5eb9d0f3808"
+      },
+      {
+        "title": "VGL BGMI",
+        "club": "TECHNOLOGY AND GAMING CLUB (TAG)",
+        "description": "BGMI tournaments determine winners based on a combination of placement points and kills. Teams with higher placements and more kills generally earn more points.",
+        "time": "7:30 PM - 1:30 AM",
+        "date": "19/2/2025",
+        "participants": "4 members",
+        "fee": "Rs. 150/-",
+        "image": "https://i.imgur.com/2Gy4DHK.jpeg",
+        "tags": ["E-Sports", "Thrill Games"],
+        "link": "https://riviera.vit.ac.in/events/evt_b7c6877121ef420091eed1c89619c704"
+      },
+      {
+        "title": "Agam",
+        "club": "Tamil Literary Association",
+        "description": "AGAM: A spectacular Tamil cultural show featuring music, dance, comedy, and more, celebrating heritage and community.",
+        "time": "9:30 PM - 1:30 AM",
+        "date": "22/2/2025",
+        "participants": "Solo",
+        "fee": "Rs. 100/-",
+        "image": "https://i.imgur.com/nnHmytt.png",
+        "tags": ["Tamil", "Traditional", "Music"],
+        "link": "https://riviera.vit.ac.in/events/evt_b8d582277af84b5ebdfbf7be8890b04e"
+      },
+      {
+        "title": "Tug of War 3.0",
+        "club": "Fitness and Beyond",
+        "description": "Team up with your friends and test your collective strength and coordination in this classic battle of the pull.",
+        "time": "7:30 PM - 10:30 PM",
+        "date": "19/2/2025",
+        "participants": "10 members",
+        "fee": "Rs. 110/-",
+        "image": "https://i.imgur.com/ndzfxKI.jpeg",
+        "tags": ["Physically exerting events", "Macho games", "Traditional"],
+        "link": "https://riviera.vit.ac.in/events/evt_bbf37ae725314d018e0e59e5548759fd"
+      },
+      {
+        "title": "Suits: The Court of Contentions",
+        "club": "VITMUNSoc.",
+        "cash_prize": "₹50,000",
+        "description": "Suits: The Court of Contention is a groundbreaking event that fuses the art of debate with the intricacies of legal advocacy.",
+        "time": "5:30 PM - 1:30 AM",
+        "date": "21/2/2025",
+        "participants": "4 members",
+        "fee": "Rs. 164/-",
+        "image": "https://i.imgur.com/6C5tWWa.png",
+        "tags": ["Speaking", "Quiz", "Entrepreneurial"],
+        "link": "https://riviera.vit.ac.in/events/evt_bc10411f8c7d40899b4e4a0440c0b493"
+      },
+      {
+        "title": "Escape The Matrix",
+        "club": "MATRIX- THE MULTIMEDIA CLUB",
+        "description": "Adventurous games based on money heist.",
+        "time": "4:30 PM - 1:30 AM",
+        "date": "21/2/2025",
+        "participants": "4-6 members",
+        "fee": "Rs. 180/-",
+        "image": "https://i.imgur.com/RhiTMSt.png",
+        "tags": ["Thrill Games", "Puzzle", "Treasure hunt"],
+        "link": "https://riviera.vit.ac.in/events/evt_be6c7beeead94632b2619e798e026ef9"
+      },
+      {
+        "title": "Cyclomania",
+        "club": "VIT Cycling Club",
+        "description": "Test your balance, speed, and skills in three exciting events—Slow Cycling, Obstacle Pathway, and Time Trial.",
+        "time": "8:30 PM - 1:30 AM",
+        "date": "20/2/2025",
+        "participants": "Solo",
+        "fee": "Rs. 99/-",
+        "image": "https://i.imgur.com/pOzWoKM.png",
+        "tags": ["Physically exerting events", "Macho games", "Thrill Games"],
+        "link": "https://riviera.vit.ac.in/events/evt_bef8e724f94b48ac9d97e38290696dc3"
+      },
+      {
+        "title": "Maulana Abul Kalam Azad (MAKA) Debate Tournament",
+        "club": "DEBATE SOCIETY",
+        "description": "The 7th edition of MAKA or the Maulana Abul Kalam Azad Debate Tournament.",
+        "time": "5:30 PM - 1:30 AM",
+        "date": "20/2/2025",
+        "participants": "3 members",
+        "fee": "Rs. 127/-",
+        "image": "https://i.imgur.com/X9RefwU.jpeg",
+        "tags": ["Speaking", "Quiz"],
+        "link": "https://riviera.vit.ac.in/events/evt_bf06fc52aebf4bacb8a63224f2500527"
+      },
+      {
+        "title": "Halloween Heist: Detective Saga",
+        "club": "ANCHORING CLUB",
+        "description": "Halloween Heist: A Detective Saga is a thrilling, multi-round event inspired by Brooklyn Nine-Nine's iconic heists.",
+        "time": "5:30 PM - 1:30 AM",
+        "date": "21/2/2025",
+        "participants": "3-5 members",
+        "fee": "Rs. 150/-",
+        "image": "https://i.imgur.com/WOwBy99.jpeg",
+        "tags": ["Puzzle", "Thrill Games", "Treasure hunt"],
+        "link": "https://riviera.vit.ac.in/events/evt_c2bc98f819414227aa0955fc452fb3d6"
+      }
+    ]
+  }
+  

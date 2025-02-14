@@ -1,0 +1,115 @@
+{
+    "events": [
+      {
+        "title": "Case Closed: \"fighting together\"",
+        "club": "Anti Drug Club",
+        "description": "Join us in a two-round challenge by the Anti-Drug Club! Round 1: Turn Court tests your debating skills on substance abuse topics. Round 2: Case Study requires analyzing a drug-related scenario and proposing solutions. Let's close the case on substance abuse together!",
+        "time": "5:30 PM - 1:30 AM",
+        "date": "20/2/2025",
+        "participants": "3",
+        "price": "Rs. 199/-",
+        "tags": ["Speaking", "Quiz", "Entrepreneurial"],
+        "link": "https://riviera.vit.ac.in/events/evt_c4519a57c4344120bd5e5360cd96a185"
+      },
+      {
+        "title": "Swarantakshari",
+        "club": "MARATHI LITERARY ASSOCIATION - (YUVA MARATHI)",
+        "description": "Swarantakshari is a thrilling Antakshari competition with five elimination rounds where teams must sing their way to survival. A special wildcard round offers one eliminated team a chance to re-enter the finals.",
+        "time": "7:30 PM - 1:30 AM",
+        "date": "19/2/2025",
+        "participants": "5-6",
+        "price": "Rs. 120/-",
+        "tags": ["Music", "Singing", "Traditional"],
+        "link": "https://riviera.vit.ac.in/events/evt_c8820dee171943f4bee0d7d27ac36763"
+      },
+      {
+        "title": "SMRITI '25 – Tharangam (Group Song)",
+        "club": "Malayalam Literary Association - MLA",
+        "description": "A harmonious celebration of Malayalam music, where voices unite to create a mesmerizing musical experience.",
+        "time": "5:30 PM - 1:30 AM",
+        "date": "22/2/2025",
+        "participants": "3-7",
+        "price": "Rs. 150/-",
+        "tags": ["Music", "Singing", "Malayalam"],
+        "link": "https://riviera.vit.ac.in/events/evt_c9c252f9093b4a2fa1b58abc4d65a6bf"
+      },
+      {
+        "title": "MONODRASIS",
+        "club": "VIT Dramatics Club",
+        "description": "A solo performance competition where individuals deliver original, impactful monologues showcasing emotions, expressions, and dialogue delivery.",
+        "time": "5:30 PM - 1:30 AM",
+        "date": "20/2/2025",
+        "participants": "Solo",
+        "price": "Rs. 200/-",
+        "tags": ["Speaking", "Art & Craft"],
+        "link": "https://riviera.vit.ac.in/events/evt_ca6223df587742d0af9e5cb576bcf9c1"
+      },
+      {
+        "title": "Among us",
+        "club": "Indian Society for Technical Education (ISTE)",
+        "description": "Step into the world of \"Among Us\" with ISTE-VIT! Uncover impostors, complete tasks, and navigate a space full of suspense and strategy. Trust no one, question everything, and see if you can outsmart the chaos.",
+        "time": "7:30 PM - 11:30 PM",
+        "date": "19/2/2025",
+        "participants": "Solo",
+        "price": "Rs. 150/-",
+        "tags": ["E-Sports", "Thrill Games", "Puzzle"],
+        "link": "https://riviera.vit.ac.in/events/evt_cc352046bba7421f82d41f39e26f2a7a"
+      },
+      {
+        "title": "Picto",
+        "club": "ENGLISH LITERARY ASSOCIATION (ELA)",
+        "description": "Showcase your telepathic connection with your teammate! Bring out your drawing skills to guess the right answer.",
+        "time": "10:30 PM - 1:30 AM",
+        "date": "20/2/2025",
+        "participants": "2-3",
+        "price": "Rs. 80/-",
+        "tags": ["Art & Craft", "Puzzle"],
+        "link": "https://riviera.vit.ac.in/events/evt_ccb4d708d92843b9887768a4b23c0186"
+      },
+      {
+        "title": "Script-It-Out!",
+        "club": "VIT FILM SOCIETY (VFS)",
+        "description": "Two man teams compete in a script writing challenge based on a prompt provided on the day of the event.",
+        "time": "5:30 PM - 9:30 PM",
+        "date": "21/2/2025",
+        "participants": "2",
+        "price": "Rs. 150/-",
+        "tags": ["Art & Craft", "Speaking"],
+        "link": "https://riviera.vit.ac.in/events/evt_cd6517cd8ce34896bc9be20c2a442f4d"
+      },
+      {
+        "title": "Silent Disco",
+        "club": "VIT SPARTANS",
+        "description": "Step into a world of music and movement with Silent Disco! Put on wireless headphones, choose your favorite track from multiple playlists, and dance the night away. Let your vibe speak louder than words!",
+        "time": "6:30 PM - 1:30 AM",
+        "date": "21/2/2025",
+        "participants": "Solo",
+        "price": "Rs. 300/-",
+        "tags": ["Music", "Dance", "Calming games"],
+        "link": "https://riviera.vit.ac.in/events/evt_cdc446b00091417db9fcbdb38a334e22"
+      },
+      {
+        "title": "Pitch Perfect - Classical",
+        "club": "VIT Music Club",
+        "description": "Showcase your talent and bamboozle the audience with soothing aalaap, swaras and awe inspiring sangathis in this solo singing competition!",
+        "time": "5:30 PM - 1:30 AM",
+        "date": "21/2/2025",
+        "participants": "Solo",
+        "price": "Rs. 350/-",
+        "tags": ["Music", "Singing", "Traditional"],
+        "link": "https://riviera.vit.ac.in/events/evt_cf44d75cce584c6cbecdc8d689386192"
+      },
+      {
+        "title": "DumbC",
+        "club": "ENGLISH LITERARY ASSOCIATION (ELA)",
+        "description": "Show us how telepathically connected you are to your friends by guessing the prompts acted out, correctly within the limits!",
+        "time": "10:30 PM - 1:30 AM",
+        "date": "19/2/2025",
+        "participants": "2-4",
+        "price": "Rs. 80/-",
+        "tags": ["Speaking", "Art & Craft", "Thrill Games"],
+        "link": "https://riviera.vit.ac.in/events/evt_cf8c07c9c50e471f8907f734d39180d4"
+      }
+    ]
+  }
+  

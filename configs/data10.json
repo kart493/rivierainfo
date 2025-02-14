@@ -1,0 +1,115 @@
+{
+  "events": [
+    {
+      "title": "MonoTechX",
+      "club": "Creation Lab",
+      "description": "MonotechX (human monopoly)",
+      "time": "5:30 PM - 1:30 AM",
+      "date": "21/2/2025",
+      "participants": "5 members",
+      "fee": "Rs. 99/-",
+      "tags": ["Board Games", "Thrill Games", "Entrepreneurial"],
+      "link": "https://riviera.vit.ac.in/events/evt_8c5a50dab6d748be966275bb7b37a039"
+    },
+    {
+      "title": "Campus Frenzy",
+      "club": "LEO Club",
+      "description": "A thrilling campus-wide adventure combining quizzes, landmark exploration, and fun tasks to test creativity, teamwork and time management.",
+      "time": "7:30 PM - 1:30 AM",
+      "date": "19/2/2025",
+      "participants": "4 members",
+      "fee": "Rs. 100/-",
+      "tags": ["Treasure hunt", "Quiz", "Thrill Games", "Physically exerting events"],
+      "link": "https://riviera.vit.ac.in/events/evt_8ecde4080bf24c349f376985776183b6"
+    },
+    {
+      "title": "Echoes of Dhol - Workshop",
+      "club": "Marathi Literary Association - (Yuva Marathi)",
+      "description": "Dhol-Tasha is the pride of Maharashtrian culture. Many people are interested to see as well as play Dhol-Tasha. Through this workshop, we will teach Participants to play Dhol.",
+      "time": "5:30 PM - 1:30 AM",
+      "date": "22/2/2025",
+      "participants": "Solo",
+      "fee": "Rs. 150/-",
+      "tags": ["Music", "Traditional", "Art & Craft"],
+      "link": "https://riviera.vit.ac.in/events/evt_94c9d0de468d44a28028fe485f4a8f2b"
+    },
+    {
+      "title": "Jaagruthi",
+      "club": "Individual event",
+      "description": "An engaging and interactive 4-hour motivational talkshow where three inspiring guests share their personal journeys and valuable insights.",
+      "time": "10:30 PM - 1:30 AM",
+      "date": "20/2/2025",
+      "participants": "3-5 Members",
+      "fee": "Rs. 79/-",
+      "tags": ["Speaking", "Entrepreneurial"],
+      "link": "https://riviera.vit.ac.in/events/evt_9856b2f983644bf896380c898324503f"
+    },
+    {
+      "title": "Cricket Net Practice",
+      "club": "Youth Red Cross",
+      "description": "Test your batting skills with the Youth Red Cross at Riviera! Face 2 thrilling overs against an automated ball machine and prove your mettle on the pitch!",
+      "time": "7:30 PM - 1:30 AM",
+      "date": "19/2/2025",
+      "participants": "Solo",
+      "fee": "Rs. 200/-",
+      "tags": ["Physically exerting events", "Macho games", "Thrill Games"],
+      "link": "https://riviera.vit.ac.in/events/evt_99f619eb67a84d65ba834fa246cc7b0a"
+    },
+    {
+      "title": "Visionary Tales",
+      "club": "Solar Energy Society of India",
+      "description": "A two-stage event combining a case study challenge, where teams present solutions and earn peer votes, while participating in exciting games.",
+      "time": "5:30 PM - 1:30 AM",
+      "date": "21/2/2025",
+      "participants": "Solo",
+      "fee": "Rs. 120/-",
+      "tags": ["Speaking", "Entrepreneurial", "Quiz"],
+      "link": "https://riviera.vit.ac.in/events/evt_9bf3c66eea634748967e46e3af59c048"
+    },
+    {
+      "title": "Gully Cricket",
+      "club": "VIT Spartans",
+      "description": "The Gully Cricket event lets you enjoy the nostalgic feeling from your childhood.",
+      "time": "7:30 PM - 11:30 PM",
+      "date": "19/2/2025",
+      "participants": "Solo",
+      "fee": "Rs. 100/-",
+      "tags": ["Physically exerting events", "Macho games", "Traditional"],
+      "link": "https://riviera.vit.ac.in/events/evt_9d2c3f023ac44ab78ad5551e3d003c5c"
+    },
+    {
+      "title": "Lens Quest",
+      "club": "The Photography Club",
+      "description": "A unique and interactive photography challenge that includes a thrilling quest and capturing photographs based on the clues, all within a set time limit.",
+      "time": "6:30 PM - 12:30 AM",
+      "date": "20/2/2025",
+      "participants": "3 members",
+      "fee": "Rs. 120/-",
+      "tags": ["Art & Craft", "Treasure hunt", "Thrill Games"],
+      "link": "https://riviera.vit.ac.in/events/evt_9f0793bbb98148c0ae4c5f026d5ffe49"
+    },
+    {
+      "title": "Pitch Perfect - Western",
+      "club": "VIT Music Club",
+      "description": "A western solo singing contest where you can showcase your vocal skills and captivate the crowd!",
+      "time": "5:30 PM - 1:30 AM",
+      "date": "20/2/2025",
+      "participants": "Solo",
+      "fee": "Rs. 350/-",
+      "prize": "₹15,000",
+      "tags": ["Music", "Singing", "Speaking"],
+      "link": "https://riviera.vit.ac.in/events/evt_9fdc723a369847acb485d7e37f865bbd"
+    },
+    {
+      "title": "221B Baker Street",
+      "club": "Institution of Electronics and Telecommunication Engineers (IETE)",
+      "description": "An inspiring journey of curiosity and creativity unfolds at 221B Baker Street, promising unforgettable moments and cherished memories.",
+      "time": "5:30 PM - 12:30 AM",
+      "date": "20/2/2025",
+      "participants": "5 members",
+      "fee": "Rs. 200/-",
+      "tags": ["Puzzle", "Thrill Games", "Treasure hunt"],
+      "link": "https://riviera.vit.ac.in/events/evt_a29465b415084ac297a5dce4f9c34488"
+    }
+  ]
+}

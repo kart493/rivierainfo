@@ -1,0 +1,109 @@
+{
+  "events": [
+    {
+      "title": "SMRITI '25 – Aaravam (Audience)",
+      "club": "Malayalam Literary Association - MLA",
+      "description": "A mesmerizing journey with a musical guest, bringing soulful melodies and captivating rhythms to life on stage.",
+      "time": "5:30 PM - 1:30 AM",
+      "date": "22/2/2025",
+      "category": "Music",
+      "type": "Solo",
+      "price": "Rs. 100/-",
+      "image": "https://i.imgur.com/koshz7e.png",
+      "tags": ["Music", "Malayalam"],
+      "link": "https://riviera.vit.ac.in/events/evt_03eeb2d2e1ab49fdb60faa81f1e8b867"
+    },
+    {
+      "title": "TinyVerse",
+      "club": "VITMAS",
+      "description": "Unleash your inner artist! Join our miniature modeling event. We provide all the materials: clay, paints, glitter, and more! Create your own masterpiece or follow along with club members' guidance. All creations are yours to keep!",
+      "time": "5:30 PM - 1:30 AM",
+      "date": "22/2/2025",
+      "category": "Art",
+      "type": "Solo",
+      "price": "Rs. 250/-",
+      "image": "https://i.imgur.com/MJKwKiE.png",
+      "tags": ["Art & Craft", "Calming games"],
+      "link": "https://riviera.vit.ac.in/events/evt_0520e0813ac14a18be6a6cc0cd3d574b"
+    },
+    {
+      "title": "Pitch Perfect - Eastern",
+      "club": "VIT Music Club",
+      "description": "An eastern solo singing contest and put your vocal range and pitch knowledge to the ultimate test!",
+      "time": "5:30 PM - 1:30 AM",
+      "date": "22/2/2025",
+      "category": "Music",
+      "type": "Solo",
+      "price": "Rs. 350/-",
+      "cash_prize": "₹15,000",
+      "image": "https://i.imgur.com/7dyGra7.jpeg",
+      "tags": ["Music", "singing", "Traditional"],
+      "link": "https://riviera.vit.ac.in/events/evt_0844886618004b81a91deedf5ef65c15"
+    },
+    {
+      "title": "Lagori 2.0 (Seven stones)",
+      "club": "Kannada Literary Association (KLA-KANNADA KASTHURI)",
+      "description": "Lagori is a traditional game from the Indian subcontinent involving a ball and a pile of flat stones, generally played between two teams in a large outdoor area.",
+      "time": "5:30 PM - 12:30 AM",
+      "date": "22/2/2025",
+      "category": "Sports",
+      "type": "Solo",
+      "price": "Rs. 75/-",
+      "image": "https://i.imgur.com/8bz4vjT.png",
+      "tags": ["Traditional", "Physically exerting events", "Macho games"],
+      "link": "https://riviera.vit.ac.in/events/evt_0bba83e645664785a737ca5577e665d0"
+    },
+    {
+      "title": "Traditions in Tunes",
+      "club": "BLA, OLA, PLA, HLA",
+      "description": "Traditions in Tune: A vibrant celebration of Indian culture, headlined by a stunning fashion show blending tradition and style!",
+      "time": "8:30 PM - 12:30 AM",
+      "date": "22/2/2025",
+      "category": "Cultural",
+      "type": "Solo",
+      "price": "Rs. 82/-",
+      "image": "https://i.imgur.com/X7HAnNL.jpeg",
+      "tags": ["Traditional", "Music", "Dance"],
+      "link": "https://riviera.vit.ac.in/events/evt_0ef92298cf2b4464915e794502e5c83e"
+    },
+    {
+      "title": "VGL FIFA",
+      "club": "Technology and Gaming Club (TAG)",
+      "description": "The FIFA tournament is an electrifying competitive event where players showcase their mastery of virtual football in intense, head-to-head matches.",
+      "time": "7:30 PM - 1:30 AM",
+      "date": "19/2/2025",
+      "category": "Gaming",
+      "type": "Solo",
+      "price": "Rs. 150/-",
+      "image": "https://i.imgur.com/dd1dFlv.jpeg",
+      "tags": ["E-Sports", "Watch"],
+      "link": "https://riviera.vit.ac.in/events/evt_0f11cea9ca4842f0a933f9d2bc3b6dd3"
+    },
+    {
+      "title": "Grill or Get Grilled",
+      "club": "Odisha Literary Association (OLA-UTKAL SAMAJ)",
+      "description": "An exciting debate competition where wit meets words! Gather your team, sharpen your arguments, and enter a friendly, competitive environment that celebrates healthy discourse and collaboration.",
+      "time": "5:30 PM - 1:30 AM",
+      "date": "21/2/2025",
+      "category": "Debate",
+      "type": "Team (5 members)",
+      "price": "Rs. 125/-",
+      "image": "https://i.imgur.com/fElhWFQ.png",
+      "tags": ["Speaking", "Quiz"],
+      "link": "https://riviera.vit.ac.in/events/evt_0f6dfabc500045568b7b2be51ac854c4"
+    },
+    {
+      "title": "Scavenger of the Year 3.0",
+      "club": "Mozilla Firefox Club",
+      "description": "A high-stakes scavenger hunt like never before! Solve challenging riddles, race to key locations, and power up in game centers to gain an edge.",
+      "time": "5:30 PM - 1:30 AM",
+      "date": "21/2/2025",
+      "category": "Adventure",
+      "type": "Team (3-4 members)",
+      "price": "Rs. 130/-",
+      "image": "https://i.imgur.com/NXrgG2g.png",
+      "tags": ["Treasure hunt", "puzzle", "Thrill Games", "Physically exerting events"],
+      "link": "https://riviera.vit.ac.in/events/evt_1571bc40468a45bc896604fe2b9ce1ac"
+    }
+  ]
+}

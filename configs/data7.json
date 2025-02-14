@@ -1,0 +1,126 @@
+{
+    "events": [
+      {
+        "title": "La Fiesta Carnival 2.0",
+        "club": "Toastmasters International",
+        "description": "A vibrant community event featuring fun games, live performances, and interactive activities for all ages. With themed decorations and exciting prizes, it promises a festive celebration of unity, joy, and diversity.",
+        "time": "5:30 PM - 1:30 AM",
+        "date": "22/2/2025",
+        "participants": "Solo",
+        "fee": "Rs. 127/-",
+        "image": "https://i.imgur.com/9aZ8phy.png",
+        "tags": ["Watch", "Speaking", "Traditional"],
+        "link": "https://riviera.vit.ac.in/events/evt_659fd41b18b447ef8b84d6d99a97b401"
+      },
+      {
+        "title": "IPL Auction",
+        "club": "VITBS",
+        "description": "A simulated IPL-style sports auction where teams of 4 bid on players with skill points (1-10) within a fixed budget to build a balanced squad. The winning team is determined through a points-based evaluation, blending strategy, teamwork, and fun.",
+        "time": "5:30 PM - 1:30 AM",
+        "date": "22/2/2025",
+        "participants": "1-4 members",
+        "fee": "Rs. 100/-",
+        "image": "https://i.imgur.com/NYFqpbb.png",
+        "tags": ["Entrepreneurial", "Speaking", "Board Games"],
+        "link": "https://riviera.vit.ac.in/events/evt_65bdaf591e644fa38c29f818ab6f400d"
+      },
+      {
+        "title": "Chitram",
+        "club": "Telugu Literary Association (Sahiti)",
+        "description": "Sahiti, the Telugu literary association, presents Chitram, a grand competitive event featuring performances by Sahiti Club members, followed by final competitive rounds showcasing top talents in dance, singing, and dialogue delivery from the prelims, judged by a distinguished guest and followed by a lively concert.",
+        "time": "5:30 PM - 9:30 PM",
+        "date": "22/2/2025",
+        "participants": "Solo",
+        "fee": "Rs. 200/-",
+        "image": "https://i.imgur.com/G23TRk9.jpeg",
+        "tags": ["Telugu", "Dance", "singing", "Speaking"],
+        "link": "https://riviera.vit.ac.in/events/evt_67271c988f36437cab142e60f4d804aa"
+      },
+      {
+        "title": "Hogwarts' House Cup Chronicles",
+        "club": "Otaku - The Anime Fan Club",
+        "description": "Join us for a ride through Hogwarts as we take on challenges like potion making, wand crafting and Quidditch.",
+        "time": "6:30 PM - 1:30 AM",
+        "date": "22/2/2025",
+        "participants": "4-6 members",
+        "fee": "Rs. 127/-",
+        "image": "https://i.imgur.com/3IFXWG6.png",
+        "tags": ["Art & Craft", "Thrill Games", "puzzle"],
+        "link": "https://riviera.vit.ac.in/events/evt_6746d7f2fab54c42b46e1edb42f1db1a"
+      },
+      {
+        "title": "Cashino 2.0",
+        "club": "Dream Merchants",
+        "description": "Captivating mystery arena packed with karaoke, family feud, jigsaw puzzles, financial jeopardy, mocktail testing, speed networking, and more fun-filled games for an unforgettable evening.",
+        "time": "4:30 PM - 1:30 AM",
+        "date": "22/2/2025",
+        "participants": "1-5 members",
+        "fee": "Rs. 170/-",
+        "image": "https://i.imgur.com/ziTm0nR.png",
+        "tags": ["puzzle", "singing", "Cooking & Drinks", "Speaking"],
+        "link": "https://riviera.vit.ac.in/events/evt_685c6fa234974d9f9d653d973f0b7b7b"
+      },
+      {
+        "title": "SMRITI '25 – Thoolika",
+        "club": "Malayalam Literary Association - MLA",
+        "description": "An artistic fusion of Malayalam calligraphy, pencil drawing, and creative writing, celebrating the beauty of words, art, and imagination.",
+        "time": "5:30 PM - 1:30 AM",
+        "date": "22/2/2025",
+        "participants": "Solo",
+        "fee": "Rs. 100/-",
+        "image": "https://i.imgur.com/koshz7e.png",
+        "tags": ["Art & Craft", "Malayalam", "Traditional"],
+        "link": "https://riviera.vit.ac.in/events/evt_692baa53e6b840f18c03ce996db1b78a"
+      },
+      {
+        "title": "Bouncy Castle",
+        "club": "VITMAS",
+        "description": "Bouncy castles for everyone! Exciting inflatables for all ages. No need to pre-register, on-spot sign-ups available.",
+        "time": "5:30 PM - 1:30 AM",
+        "date": "20/2/2025",
+        "participants": "Solo",
+        "fee": "Rs. 120/-",
+        "image": "https://i.imgur.com/ZsTJS17.jpeg",
+        "tags": ["Physically exerting events", "Thrill Games"],
+        "link": "https://riviera.vit.ac.in/events/evt_6a682d348ae54812b7f5a67402517288"
+      },
+      {
+        "title": "Orator's Arena",
+        "club": "ToastMasters International",
+        "description": "We start off with an orientation session full of rules and pro tips for success, after which we dive into prepared speeches and quick-fire impromptu rounds!",
+        "time": "6:30 PM - 12:30 AM",
+        "date": "21/2/2025",
+        "participants": "Solo",
+        "fee": "Rs. 127/-",
+        "prize": "₹15,000",
+        "image": "https://i.imgur.com/6uCmUYU.png",
+        "tags": ["Speaking", "Entrepreneurial"],
+        "link": "https://riviera.vit.ac.in/events/evt_6a7df60e370241068324b1490d11f68c"
+      },
+      {
+        "title": "Dance It Out",
+        "club": "VIT Dance Club",
+        "description": "An immersive dance workshop designed to give everyone a chance to learn diverse dance styles from all seven teams of VIT dance club!",
+        "time": "9:30 PM - 1:30 AM",
+        "date": "20/2/2025",
+        "participants": "Solo",
+        "fee": "Rs. 170/-",
+        "image": "https://i.imgur.com/ehQhNFZ.png",
+        "tags": ["Dance", "Music", "Physically exerting events"],
+        "link": "https://riviera.vit.ac.in/events/evt_6aaa3b2d998247b085aea6ecda7b4294"
+      },
+      {
+        "title": "Student of the Year 3.0",
+        "club": "IEEE Professional Communication Society (IEEE-PCS)",
+        "description": "Get ready for the ultimate competition that pushes you to showcase your all-around excellence through thrilling challenges, unforgettable fun, and exciting prizes!",
+        "time": "6:30 PM - 12:30 AM",
+        "date": "20/2/2025",
+        "participants": "4-5 members",
+        "fee": "Rs. 164/-",
+        "image": "https://i.imgur.com/r3KoLcY.jpeg",
+        "tags": ["Quiz", "Speaking", "Thrill Games"],
+        "link": "https://riviera.vit.ac.in/events/evt_6aac1b1f30ab4ebabb6d2efd12469a8a"
+      }
+    ]
+  }
+  

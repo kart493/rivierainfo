@@ -1,0 +1,126 @@
+{
+    "events": [
+      {
+        "title": "Get Set Dance - Western",
+        "club": "VIT Dance Club",
+        "description": "Get Set Dance—Western Edition is a dynamic solo dance competition celebrating creativity, talent, and the essence of Western dance. Show off your style and groove to the top!",
+        "time": "5:30 PM - 10:30 PM",
+        "date": "20/2/2025",
+        "type": "Solo",
+        "fee": "Rs. 230/-",
+        "cash_prize": "₹20,000",
+        "image": "https://i.imgur.com/RkaROiw.png",
+        "tags": ["Dance", "Music", "Speaking"],
+        "link": "https://riviera.vit.ac.in/events/evt_58dfdf8c7f3b4089ae5d787bee5a8b2c"
+      },
+      {
+        "title": "Cube Mastery",
+        "club": "CUBING CLUB",
+        "description": "Participants will learn the 3x3 cube through a guided teaching session.",
+        "time": "9:30 PM - 1:30 AM",
+        "date": "20/2/2025",
+        "type": "Solo",
+        "fee": "Rs. 60/-",
+        "image": "https://i.imgur.com/GvwvVMq.png",
+        "tags": ["puzzle", "Calming games"],
+        "link": "https://riviera.vit.ac.in/events/evt_58e9c9a4b85e4b28bd6ca361d3c4af58"
+      },
+      {
+        "title": "Mobwars",
+        "club": "VITMAS",
+        "description": "Experience three thrilling challenges: contraband smuggling, a game of betrayal, and a captivating murder mystery. Test your wits and emerge victorious in this immersive game of deception.",
+        "time": "5:30 PM - 1:30 AM",
+        "date": "20/2/2025",
+        "type": "Solo",
+        "fee": "Rs. 150/-",
+        "image": "https://i.imgur.com/G3zVKQd.jpeg",
+        "tags": ["Thrill Games", "puzzle", "Speaking"],
+        "link": "https://riviera.vit.ac.in/events/evt_5939c34fcee94774b9ee0b77ed6bf45a"
+      },
+      {
+        "title": "Revogue 3.0",
+        "club": "Society for Biological Engineering",
+        "description": "ReVogue 3.0 blends fashion with sustainability, turning eco-conscious designs into wearable art. Rethink, reuse, and reshape the future by honoring both style and the planet.",
+        "time": "5:30 PM - 1:30 AM",
+        "date": "22/2/2025",
+        "type": "4-5 members",
+        "fee": "Rs. 200/-",
+        "image": "https://i.imgur.com/BV8BpOk.png",
+        "tags": ["Art & Craft", "Entrepreneurial", "Speaking"],
+        "link": "https://riviera.vit.ac.in/events/evt_5b1def3308924aa1bb43bafa9f92965f"
+      },
+      {
+        "title": "Marathon",
+        "club": "Sports Dept",
+        "description": "A long-distance running event.",
+        "time": "12:30 PM - 3:30 PM",
+        "date": "19/2/2025",
+        "type": "Solo",
+        "fee": "Rs. 0/-",
+        "image": "https://i.imgur.com/gy7jcv2.jpeg",
+        "tags": ["Physically exerting events", "Macho games"],
+        "link": "https://riviera.vit.ac.in/events/evt_5bab41c9b5c44ad5abe3d50f00a71bd6"
+      },
+      {
+        "title": "Colour Blind",
+        "club": "CUBING CLUB",
+        "description": "A fun painting event where you create art in a monochromatic environment.",
+        "time": "6:30 PM - 12:30 AM",
+        "date": "21/2/2025",
+        "type": "Solo",
+        "fee": "Rs. 150/-",
+        "image": "https://i.imgur.com/xqwHrfK.png",
+        "tags": ["Art & Craft", "Calming games"],
+        "link": "https://riviera.vit.ac.in/events/evt_5df1e58bd49e494d9ab7a83689a54f91"
+      },
+      {
+        "title": "VGL VALORANT",
+        "club": "TECHNOLOGY AND GAMING CLUB (TAG)",
+        "description": "The Valorant tournament is a competitive event where teams of five battle it out in tactical, round-based gameplay, aiming to out-strategize and outplay opponents.",
+        "time": "7:30 PM - 1:30 AM",
+        "date": "19/2/2025",
+        "type": "5 members",
+        "fee": "Rs. 150/-",
+        "image": "https://i.imgur.com/2Gy4DHK.jpeg",
+        "tags": ["E-Sports", "Thrill Games"],
+        "link": "https://riviera.vit.ac.in/events/evt_5ee5943670ef4e478cce6fe0bbe1488d"
+      },
+      {
+        "title": "Family Feud 3.0",
+        "club": "Visual Blogger's Club",
+        "description": "\"Survey says… it's time to team up, guess smart, and fight for cash, laughs, and ultimate bragging rights!\"",
+        "time": "5:30 PM - 11:30 PM",
+        "date": "21/2/2025",
+        "type": "4-5 members",
+        "fee": "Rs. 200/-",
+        "image": "https://i.imgur.com/1GOdB7y.jpeg",
+        "tags": ["Quiz", "Speaking", "tv show"],
+        "link": "https://riviera.vit.ac.in/events/evt_5f3a2556cf3443d88ab0a8c913c0d63d"
+      },
+      {
+        "title": "BGVS",
+        "club": "CREATION LAB",
+        "description": "BGVS (battle ground mobile game).",
+        "time": "7:30 PM - 1:30 AM",
+        "date": "19/2/2025",
+        "type": "4 members",
+        "fee": "Rs. 99/-",
+        "image": "https://i.imgur.com/LjZQlgl.jpeg",
+        "tags": ["E-Sports", "Thrill Games"],
+        "link": "https://riviera.vit.ac.in/events/evt_619f7feda99447ddba955e2a1582f3ee"
+      },
+      {
+        "title": "Bollywood Bash 3.0",
+        "club": "MATRIX THE MULTIMEDIA CLUB",
+        "description": "Step into the vibrant world of Indian cinema at the Bollywood Bash! This high-energy event promises hours of fun and excitement as you celebrate the magic of Bollywood.",
+        "time": "5:30 PM - 1:30 AM",
+        "date": "20/2/2025",
+        "type": "Solo",
+        "fee": "Rs. 130/-",
+        "image": "https://i.imgur.com/9aN7hxD.jpeg",
+        "tags": ["Dance", "Music", "Traditional"],
+        "link": "https://riviera.vit.ac.in/events/evt_64565e0e987d4011996b5b4ae9ab924c"
+      }
+    ]
+  }
+  

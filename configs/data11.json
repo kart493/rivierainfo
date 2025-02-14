@@ -1,0 +1,127 @@
+{
+    "events": [
+      {
+        "title": "Ninaithaale Inikkum",
+        "club": "Tamil Literary Association",
+        "description": "Relive the golden era with retro fashion and classic cinema, honoring iconic Tamil legends.",
+        "time": "10:30 PM - 1:30 AM",
+        "date": "20/2/2025",
+        "participants": "1-4 members",
+        "entry_fee": "Rs. 100/-",
+        "image": "https://i.imgur.com/Z4SlUEt.png",
+        "tags": ["Tamil", "Traditional", "Watch"],
+        "link": "https://riviera.vit.ac.in/events/evt_a56f8ab569a04814b8d313a2f7c060d8"
+      },
+      {
+        "title": "Culinary Class Wars",
+        "club": "Culinary Club",
+        "description": "A dynamic three-round cooking competition where participants showcase their skills through non-fire appetizers, fire-cooked desserts, and entrées, judged on creativity, taste, and presentation to crown the ultimate chef!",
+        "time": "5:30 PM - 1:30 AM",
+        "date": "21/2/2025",
+        "participants": "1-4",
+        "entry_fee": "Rs. 120/-",
+        "image": "https://i.imgur.com/mR00P1d.jpeg",
+        "tags": ["Cooking & Drinks", "Thrill Games", "Art & Craft"],
+        "link": "https://riviera.vit.ac.in/events/evt_a828b6e84c024fada32cfe684e8c6dc5"
+      },
+      {
+        "title": "Double Trouble",
+        "club": "TREKKING CLUB",
+        "description": "Double the Game, Double the Thrill! Switch between football and basketball on the fly, outsmart your opponents, and seize victory in this high-energy showdown!",
+        "time": "7:30 PM - 1:30 AM",
+        "date": "19/2/2025",
+        "participants": "5 members",
+        "entry_fee": "Rs. 170/-",
+        "image": "https://i.imgur.com/0w4PTml.jpeg",
+        "tags": ["Physically exerting events", "Macho games", "Thrill Games"],
+        "link": "https://riviera.vit.ac.in/events/evt_a89b8f6722c546148e278e6fbdf51430"
+      },
+      {
+        "title": "Eureka Expedition: Treasure Hunt",
+        "club": "VITBS",
+        "description": "A thrilling team-based treasure hunt testing students across business domains.",
+        "time": "7:30 PM - 1:30 AM",
+        "date": "19/2/2025",
+        "participants": "4 members",
+        "entry_fee": "Rs. 84/-",
+        "image": "https://i.imgur.com/9UUBS2I.png",
+        "tags": ["Treasure hunt", "Quiz", "Entrepreneurial"],
+        "link": "https://riviera.vit.ac.in/events/evt_ab021bf19843402f8061128edc82bac7"
+      },
+      {
+        "title": "Jackpot!",
+        "club": "BENGALI LITERARY ASSOCIATION (AIKYATAAN)",
+        "description": "An event with multiple rounds but each progressing round is a different game! Ranging from guess who, rapid fires, three truths and a lie to many more.",
+        "time": "8:30 PM - 12:30 AM",
+        "date": "19/2/2025",
+        "participants": "Solo",
+        "entry_fee": "Rs. 120/-",
+        "image": "https://i.imgur.com/iLtyiC1.jpeg",
+        "tags": ["Quiz", "Speaking", "Thrill Games"],
+        "link": "https://riviera.vit.ac.in/events/evt_addabfe0ff5d418987c8eab551c3b9dc"
+      },
+      {
+        "title": "Dare 2 Duet",
+        "club": "VIT Dance Club",
+        "description": "A dance duet competition involves two dancers performing a synchronized routine, showcasing creativity, teamwork, coordination, storytelling, technique, and originality.",
+        "time": "5:30 PM - 10:30 PM",
+        "date": "21/2/2025",
+        "participants": "2 Members",
+        "entry_fee": "Rs. 230/-",
+        "cash_prize": "₹40,000",
+        "image": "https://i.imgur.com/AY4Qt7U.jpeg",
+        "tags": ["Dance", "Art & Craft", "Physically exerting events"],
+        "link": "https://riviera.vit.ac.in/events/evt_ae0e4f2c972942449e5bd3d829afe370"
+      },
+      {
+        "title": "Whodunit Quest: The Ultimate Treasure Hunt",
+        "club": "BENGALI LITERARY ASSOCIATION (AIKYATAAN) & CUBING CLUB",
+        "description": "A mystery-solving treasure hunt testing logic, teamwork, and quick thinking.",
+        "time": "5:30 PM - 9:30 PM",
+        "date": "21/2/2025",
+        "participants": "2-4 members",
+        "entry_fee": "Rs. 120/-",
+        "image": "https://i.imgur.com/ZbrTVtC.jpeg",
+        "tags": ["Treasure hunt", "Puzzle", "Thrill Games"],
+        "link": "https://riviera.vit.ac.in/events/evt_aed2015050e0461eb8923bd67fb5ab06"
+      },
+      {
+        "title": "Otakon 3.0",
+        "club": "OTAKU - THE ANIME FAN CLUB",
+        "description": "Otakon will have carnival styled minigames where everyone can win prizes and will have a cosplay competition in the end.",
+        "time": "7:30 PM - 1:30 AM",
+        "date": "20/2/2025",
+        "participants": "Solo",
+        "entry_fee": "Rs. 169/-",
+        "image": "https://i.imgur.com/ht5zYpY.png",
+        "tags": ["Art & Craft", "Thrill Games", "Watch"],
+        "link": "https://riviera.vit.ac.in/events/evt_af2850cef0cf4090825894a2e1b6273f"
+      },
+      {
+        "title": "Cine Replica",
+        "club": "VIT Dance Club",
+        "description": "A real-time choreography replication competition, blending precision, memory, and stage presence, as dancers mirror pre-selected dance videos.",
+        "time": "5:30 PM - 9:30 PM",
+        "date": "22/2/2025",
+        "participants": "2 - 6 Members",
+        "entry_fee": "Rs. 170/-",
+        "cash_prize": "₹30,000",
+        "image": "https://i.imgur.com/Y0hHrLq.png",
+        "tags": ["Dance", "Watch", "Physically exerting events"],
+        "link": "https://riviera.vit.ac.in/events/evt_b0a9b656ac18447db714817237e09985"
+      },
+      {
+        "title": "Dead Man's Sea",
+        "club": "LEO CLUB",
+        "description": "Two teams face off each other in a game of Human Battleship. Strategize, aim, and sink the opposition in this thrilling life-size twist on the classic game.",
+        "time": "5:30 PM - 10:30 PM",
+        "date": "21/2/2025",
+        "participants": "5 members",
+        "entry_fee": "Rs. 100/-",
+        "image": "https://i.imgur.com/aEanpvV.jpeg",
+        "tags": ["Thrill Games", "Physically exerting events", "Board Games"],
+        "link": "https://riviera.vit.ac.in/events/evt_b11c26eb51e246efad206b06ba5a010d"
+      }
+    ]
+  }
+  

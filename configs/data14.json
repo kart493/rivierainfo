@@ -1,0 +1,126 @@
+{
+    "events": [
+      {
+        "title": "Crate Chaos",
+        "club": "TFAC",
+        "description": "A creative art challenge where participants craft unique dioramas from mystery box materials inspired by a secret theme.",
+        "time": "8:30 PM - 1:30 AM",
+        "date": "19/2/2025",
+        "participants": "3 Members",
+        "fee": "Rs. 150/-",
+        "image": "https://i.imgur.com/MZMSTKn.jpeg",
+        "tags": ["Art & Craft", "Puzzle", "Thrill Games"],
+        "link": "https://riviera.vit.ac.in/events/evt_d36dff4b0ec34823850830f8c416ba0a"
+      },
+      {
+        "title": "Luminous League: Glow, Compete, Conquer",
+        "club": "TREKKING CLUB",
+        "description": "A thrilling four-day neon sports showdown blending strategy, skill, and glow-in-the-dark fun!",
+        "time": "7:30 PM - 1:30 AM",
+        "date": "19/2/2025",
+        "participants": "3 Members",
+        "fee": "Rs. 170/-",
+        "image": "https://i.imgur.com/Bow0ETO.jpeg",
+        "tags": ["Physically exerting events", "Thrill Games", "Macho games"],
+        "link": "https://riviera.vit.ac.in/events/evt_d39e65154ebf44d2ad4145ce9e4490a7"
+      },
+      {
+        "title": "Dress to Express",
+        "club": "Advertising and Market Club",
+        "description": "Participants will showcase their style and talent through themed performances and fun activities, celebrating imagination and fandom spirit.",
+        "time": "9:30 PM - 1:30 AM",
+        "date": "21/2/2025",
+        "participants": "Solo",
+        "fee": "Rs. 100/-",
+        "image": "https://i.imgur.com/nesKVcD.jpeg",
+        "tags": ["Art & Craft", "Speaking", "Entrepreneurial"],
+        "link": "https://riviera.vit.ac.in/events/evt_d66583a43b974d11afb93e910a6e9fc4"
+      },
+      {
+        "title": "Escape the Grid",
+        "club": "CUBING CLUB",
+        "description": "An interactive escape room event where teams solve puzzles and clues to escape within a set time.",
+        "time": "7:30 PM - 12:30 AM",
+        "date": "19/2/2025",
+        "participants": "4 Members",
+        "fee": "Rs. 120/-",
+        "image": "https://i.imgur.com/n7S6cEP.jpeg",
+        "tags": ["Puzzle", "Thrill Games", "Treasure hunt"],
+        "link": "https://riviera.vit.ac.in/events/evt_dbbec04399114751ae2ee9403f7da1c7"
+      },
+      {
+        "title": "A Dinner To Die For",
+        "club": "APPLE DEVELOPER'S GROUP (ADG)",
+        "description": "A mafia-themed deduction game where players act as Mafia or Town, debating and voting to eliminate opponents.",
+        "time": "7:30 PM - 12:30 AM",
+        "date": "19/2/2025",
+        "participants": "1 - 5 Members",
+        "fee": "Rs. 150/-",
+        "image": "https://i.imgur.com/dwBSH8w.jpeg",
+        "tags": ["Speaking", "Thrill Games", "Puzzle"],
+        "link": "https://riviera.vit.ac.in/events/evt_dbd09c9bd5be495d97fadcd70de80391"
+      },
+      {
+        "title": "Avada Kedavra",
+        "club": "Cubing Club",
+        "description": "Dwell into the world of Harry Potter. Brew potions, cast spells and duel each other to get the Best House Trophy.",
+        "time": "6:30 PM - 12:30 AM",
+        "date": "21/2/2025",
+        "participants": "Solo",
+        "fee": "Rs. 100/-",
+        "image": "https://i.imgur.com/boLBv7x.png",
+        "tags": ["Thrill Games", "Puzzle", "Art & Craft"],
+        "link": "https://riviera.vit.ac.in/events/evt_dcb09e4ad3424e8cb0d5e2638fd450c9"
+      },
+      {
+        "title": "Get Set Dance - Eastern",
+        "club": "VIT Dance Club",
+        "description": "A solo dance competition celebrating the grace and artistry of Eastern traditions. Showcase your cultural elegance!",
+        "time": "5:30 PM - 10:30 PM",
+        "date": "20/2/2025",
+        "participants": "Solo",
+        "fee": "Rs. 230/-",
+        "cash_prize": "₹ 20,000",
+        "image": "https://i.imgur.com/6o7p6DT.png",
+        "tags": ["Dance", "Traditional", "Art & Craft"],
+        "link": "https://riviera.vit.ac.in/events/evt_dd688b426cc34491accdd8776ae71bc3"
+      },
+      {
+        "title": "Carve-a-Licious",
+        "club": "Culinary Club",
+        "description": "An engaging event where participants unleash their creativity by crafting intricate designs from fruits and vegetables.",
+        "time": "7:30 PM - 10:30 PM",
+        "date": "19/2/2025",
+        "participants": "Solo",
+        "fee": "Rs. 150/-",
+        "image": "https://i.imgur.com/g3mKqVj.jpeg",
+        "tags": ["Art & Craft", "Cooking & Drinks"],
+        "link": "https://riviera.vit.ac.in/events/evt_debf629c0cc340b2b2389af3d77d97af"
+      },
+      {
+        "title": "Bachpan Arcade",
+        "club": "SPIC MACAY",
+        "description": "Gather your squad for Bachpan Arcade—a nostalgic group event filled with classic Indian games and timeless fun!",
+        "time": "5:30 PM - 11:30 PM",
+        "date": "20/2/2025",
+        "participants": "2-4 Members",
+        "fee": "Rs. 42/-",
+        "image": "https://i.imgur.com/z3pI7Td.jpeg",
+        "tags": ["Traditional", "Board Games", "Thrill Games"],
+        "link": "https://riviera.vit.ac.in/events/evt_dfd21cb94aa544789d7ff54dc9494411"
+      },
+      {
+        "title": "Strategy Odyssey Showdown",
+        "club": "SOS",
+        "description": "A mental health-themed Human Monopoly that combines entertainment, business tactics, and mental health awareness.",
+        "time": "5:30 PM - 1:30 AM",
+        "date": "20/2/2025",
+        "participants": "Solo",
+        "fee": "Rs. 100/-",
+        "image": "https://i.imgur.com/ue4bbBz.jpeg",
+        "tags": ["Board Games", "Entrepreneurial", "Puzzle"],
+        "link": "https://riviera.vit.ac.in/events/evt_dfd749991a4b446fb991a7f5caf8b0c8"
+      }
+    ]
+  }
+  
