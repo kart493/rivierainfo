@@ -179,67 +179,67 @@ export function HeroSearch({
           Discover and combine events that match your interests and schedule
         </p>
         <div className="bg-gray-900/50 p-6 rounded-lg space-y-4">
-          <div className="relative">
-            <div className="flex flex-wrap gap-2 mb-2">
-              {interests.map((interest, index) => (
-                <span
-                  key={index}
-                  className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-sm bg-blue-500/20 text-blue-400 border border-blue-500/30"
-                >
-                  {interest}
-                  <button
-                    onClick={() => removeInterest(interest)}
-                    className="hover:text-blue-300 transition-colors"
-                  >
-                    <X className="h-3 w-3" />
-                  </button>
-                </span>
-              ))}
-            </div>
-            <div className="relative">
-              <Input
-                ref={inputRef}
-                type="text"
-                placeholder={`Add up to ${3 - interests.length} interests...`}
-                className="bg-gray-800 border-gray-700"
-                value={interestSearchQuery}
-                onChange={(e) => {
-                  setInterestSearchQuery(e.target.value)
-                }}
-                onFocus={() => setShowInterests(true)}
-                onBlur={(e) => {
-                  if (document.activeElement !== e.target) {
-                    setTimeout(() => setShowInterests(false), 200)
-                  }
-                }}
-              />
-              {showInterests && interests.length < 3 && (
-                <div 
-                  ref={dropdownRef}
-                  className="absolute w-full mt-1 bg-gray-800 border border-gray-700 rounded-md shadow-lg z-10"
-                >
-                  <div className="max-h-[200px] overflow-y-auto">
-                    {filteredInterests.map((interest) => (
-                      <div
-                        key={interest}
-                        className="px-4 py-2 cursor-pointer hover:bg-blue-500/10 hover:text-blue-400 text-left"
-                        onMouseDown={(e) => {
-                          e.preventDefault()
-                          addInterest(interest)
-                        }}
-                      >
-                        {interest}
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )}
-            </div>
-          </div>
-
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="relative">
-              <div className="flex flex-wrap gap-2 mb-2">
+              <div className="h-[40px] flex flex-wrap gap-2 mb-2 overflow-y-auto">
+                {interests.map((interest, index) => (
+                  <span
+                    key={index}
+                    className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-sm bg-blue-500/20 text-blue-400 border border-blue-500/30"
+                  >
+                    {interest}
+                    <button
+                      onClick={() => removeInterest(interest)}
+                      className="hover:text-blue-300 transition-colors"
+                    >
+                      <X className="h-3 w-3" />
+                    </button>
+                  </span>
+                ))}
+              </div>
+              <div className="relative">
+                <Input
+                  ref={inputRef}
+                  type="text"
+                  placeholder={`Add up to ${3 - interests.length} interests...`}
+                  className="bg-gray-800 border-gray-700"
+                  value={interestSearchQuery}
+                  onChange={(e) => {
+                    setInterestSearchQuery(e.target.value)
+                  }}
+                  onFocus={() => setShowInterests(true)}
+                  onBlur={(e) => {
+                    if (document.activeElement !== e.target) {
+                      setTimeout(() => setShowInterests(false), 200)
+                    }
+                  }}
+                />
+                {showInterests && interests.length < 3 && (
+                  <div 
+                    ref={dropdownRef}
+                    className="absolute w-full mt-1 bg-gray-800 border border-gray-700 rounded-md shadow-lg z-10"
+                  >
+                    <div className="max-h-[200px] overflow-y-auto">
+                      {filteredInterests.map((interest) => (
+                        <div
+                          key={interest}
+                          className="px-4 py-2 cursor-pointer hover:bg-blue-500/10 hover:text-blue-400 text-left"
+                          onMouseDown={(e) => {
+                            e.preventDefault()
+                            addInterest(interest)
+                          }}
+                        >
+                          {interest}
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
+
+            <div className="relative">
+              <div className="h-[40px] flex flex-wrap gap-2 mb-2 overflow-y-auto">
                 {localSelectedDays.map((day) => (
                   <span
                     key={day.id}

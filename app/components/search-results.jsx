@@ -6,6 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { useState, forwardRef } from "react"
 import { X, ChevronDown } from "lucide-react"
+import { CalendarIcon } from "lucide-react"
 
 export const SearchResults = forwardRef(({ 
   results = [], 
@@ -54,103 +55,39 @@ export const SearchResults = forwardRef(({
           </h2>
         </div>
 
-        <div className="space-y-8">
-          {/* Desktop View - Visible on md and larger screens */}
-          <div className="hidden md:block">
-            {Object.entries(groupedEvents)
-              .sort(([dateA], [dateB]) => dateA.localeCompare(dateB))
-              .map(([date, events]) => (
-                <div key={date} className="space-y-4 mb-8">
-                  <h3 className="text-2xl font-semibold text-blue-400">
-                    {dateToDay[date]} - {date}
-                  </h3>
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {events.map((event, index) => (
-                      <Card 
-                        key={index} 
-                        className={`bg-gray-900 border-gray-800 transition-all duration-200 ${
-                          selectedEvents.some(e => e.title === event.title)
-                            ? 'bg-gray-800/80 border-blue-500/50 scale-[1.02] shadow-lg shadow-blue-500/10'
-                            : 'hover:bg-gray-800/70'
-                        }`}
-                      >
-                        <CardHeader>
-                          <div className="flex items-start gap-4">
-                            <input
-                              type="checkbox"
-                              className="mt-1.5"
-                              checked={selectedEvents.some(e => e.title === event.title)}
-                              onChange={(e) => handleEventSelect(event, e.target.checked)}
-                            />
-                            <div className="space-y-2 flex-1">
-                              <CardTitle>
-                                <a 
-                                  href={event.link}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                  className="hover:text-blue-400 transition-colors"
-                                >
-                                  {event.title}
-                                </a>
-                              </CardTitle>
-                              <div className="text-sm text-gray-400">{event.club}</div>
-                            </div>
-                          </div>
-                        </CardHeader>
-                        <CardContent className="space-y-4">
-                          <p className="text-sm text-gray-300">{event.description}</p>
-                          <div className="flex flex-wrap gap-2">
-                            {event.tags?.map((tag, tagIndex) => (
-                              <Badge 
-                                key={tagIndex}
-                                variant="secondary"
-                                className="bg-blue-500/10 text-blue-400 border border-blue-500/20"
-                              >
-                                {tag}
-                              </Badge>
-                            ))}
-                          </div>
-                          <div className="flex justify-between items-center text-sm">
-                            <div className="space-y-1">
-                              <div className="text-gray-400">{event.time}</div>
-                            </div>
-                            <div className="text-blue-400 font-medium">{event.fee}</div>
-                          </div>
-                        </CardContent>
-                      </Card>
-                    ))}
-                  </div>
-                </div>
-              ))}
+        {results.length === 0 ? (
+          <div className="text-center py-16 px-4 bg-gray-900/50 rounded-lg">
+            <div className="max-w-md mx-auto space-y-6">
+              <div className="w-20 h-20 mx-auto bg-blue-500/10 rounded-full flex items-center justify-center">
+                <CalendarIcon className="w-10 h-10 text-blue-400" />
+              </div>
+              <div className="space-y-3">
+                <h3 className="text-2xl font-semibold text-gray-200">No Events Found</h3>
+                <p className="text-gray-400">
+                  Sorry, we couldn't find any events matching your selected interests and dates. 
+                  Try adjusting your filters or selecting different dates.
+                </p>
+              </div>
+            </div>
           </div>
-
-          {/* Mobile View - Visible on smaller screens */}
-          <div className="md:hidden space-y-4">
-            {Object.entries(groupedEvents)
-              .sort(([dateA], [dateB]) => dateA.localeCompare(dateB))
-              .map(([date, events]) => (
-                <div key={date} className="border border-gray-800 rounded-lg overflow-hidden">
-                  <button
-                    onClick={() => toggleDay(date)}
-                    className="w-full flex justify-between items-center p-4 bg-gray-900 hover:bg-gray-800 transition-colors"
-                  >
-                    <h3 className="text-lg font-semibold text-blue-400">
+        ) : (
+          <div className="space-y-8">
+            {/* Desktop View - Visible on md and larger screens */}
+            <div className="hidden md:block">
+              {Object.entries(groupedEvents)
+                .sort(([dateA], [dateB]) => dateA.localeCompare(dateB))
+                .map(([date, events]) => (
+                  <div key={date} className="space-y-4 mb-8">
+                    <h3 className="text-2xl font-semibold text-blue-400">
                       {dateToDay[date]} - {date}
                     </h3>
-                    <ChevronDown 
-                      className={`h-5 w-5 transition-transform ${
-                        expandedDays.includes(date) ? 'rotate-180' : ''
-                      }`}
-                    />
-                  </button>
-                  {expandedDays.includes(date) && (
-                    <div className="space-y-4 p-4 bg-gray-900/50">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                       {events.map((event, index) => (
                         <Card 
                           key={index} 
                           className={`bg-gray-900 border-gray-800 transition-all duration-200 ${
                             selectedEvents.some(e => e.title === event.title)
-                              ? 'bg-gray-800/80 border-blue-500/50 shadow-lg shadow-blue-500/10'
+                              ? 'bg-gray-800/80 border-blue-500/50 scale-[1.02] shadow-lg shadow-blue-500/10'
                               : 'hover:bg-gray-800/70'
                           }`}
                         >
@@ -200,11 +137,92 @@ export const SearchResults = forwardRef(({
                         </Card>
                       ))}
                     </div>
-                  )}
-                </div>
-              ))}
+                  </div>
+                ))}
+            </div>
+
+            {/* Mobile View - Visible on smaller screens */}
+            <div className="md:hidden space-y-4">
+              {Object.entries(groupedEvents)
+                .sort(([dateA], [dateB]) => dateA.localeCompare(dateB))
+                .map(([date, events]) => (
+                  <div key={date} className="border border-gray-800 rounded-lg overflow-hidden">
+                    <button
+                      onClick={() => toggleDay(date)}
+                      className="w-full flex justify-between items-center p-4 bg-gray-900 hover:bg-gray-800 transition-colors"
+                    >
+                      <h3 className="text-lg font-semibold text-blue-400">
+                        {dateToDay[date]} - {date}
+                      </h3>
+                      <ChevronDown 
+                        className={`h-5 w-5 transition-transform ${
+                          expandedDays.includes(date) ? 'rotate-180' : ''
+                        }`}
+                      />
+                    </button>
+                    {expandedDays.includes(date) && (
+                      <div className="space-y-4 p-4 bg-gray-900/50">
+                        {events.map((event, index) => (
+                          <Card 
+                            key={index} 
+                            className={`bg-gray-900 border-gray-800 transition-all duration-200 ${
+                              selectedEvents.some(e => e.title === event.title)
+                                ? 'bg-gray-800/80 border-blue-500/50 shadow-lg shadow-blue-500/10'
+                                : 'hover:bg-gray-800/70'
+                            }`}
+                          >
+                            <CardHeader>
+                              <div className="flex items-start gap-4">
+                                <input
+                                  type="checkbox"
+                                  className="mt-1.5"
+                                  checked={selectedEvents.some(e => e.title === event.title)}
+                                  onChange={(e) => handleEventSelect(event, e.target.checked)}
+                                />
+                                <div className="space-y-2 flex-1">
+                                  <CardTitle>
+                                    <a 
+                                      href={event.link}
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="hover:text-blue-400 transition-colors"
+                                    >
+                                      {event.title}
+                                    </a>
+                                  </CardTitle>
+                                  <div className="text-sm text-gray-400">{event.club}</div>
+                                </div>
+                              </div>
+                            </CardHeader>
+                            <CardContent className="space-y-4">
+                              <p className="text-sm text-gray-300">{event.description}</p>
+                              <div className="flex flex-wrap gap-2">
+                                {event.tags?.map((tag, tagIndex) => (
+                                  <Badge 
+                                    key={tagIndex}
+                                    variant="secondary"
+                                    className="bg-blue-500/10 text-blue-400 border border-blue-500/20"
+                                  >
+                                    {tag}
+                                  </Badge>
+                                ))}
+                              </div>
+                              <div className="flex justify-between items-center text-sm">
+                                <div className="space-y-1">
+                                  <div className="text-gray-400">{event.time}</div>
+                                </div>
+                                <div className="text-blue-400 font-medium">{event.fee}</div>
+                              </div>
+                            </CardContent>
+                          </Card>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                ))}
+            </div>
           </div>
-        </div>
+        )}
 
         {/* Selected Events Summary */}
         {selectedEvents.length > 0 && (
