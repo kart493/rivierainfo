@@ -25,7 +25,6 @@ const dummyInterests = Array.from(new Set(
 export function HeroSearch({ 
   setSearchResults, 
   setSelectedDays, 
-  setBudget, 
   setInterests,
   selectedEvents,
   onEventSelect,
@@ -43,7 +42,6 @@ export function HeroSearch({
   const [selectedEventId, setSelectedEventId] = useState(null)
   const [searchedEvent, setSearchedEvent] = useState(null)
   const [localSelectedDays, setLocalSelectedDays] = useState([])
-  const [localBudget, setLocalBudget] = useState("")
   const inputRef = useRef(null)
   const dropdownRef = useRef(null)
 
@@ -133,16 +131,6 @@ export function HeroSearch({
     const filteredEvents = events.filter(event => {
       const dateMatches = selectedDates.includes(event.date)
       
-      if (interests.includes('free')) {
-        const feeStr = event.fee || event.entry_fee || '0'
-        const eventFee = parseInt(feeStr.replace(/[^0-9]/g, '') || '0')
-        
-        return dateMatches && (
-          (event.tags && event.tags.includes('free')) || 
-          eventFee === 0
-        )
-      }
-      
       const tagsMatch = event.tags?.some(tag => {
         const individualTags = tag.split(',').map(t => t.trim())
         return individualTags.some(t => 
@@ -188,10 +176,10 @@ export function HeroSearch({
           Find Your Perfect <span className="text-blue-500">Event Combination</span>
         </h1>
         <p className="text-xl text-gray-400">
-          Discover and combine events that match your interests, schedule, and budget
+          Discover and combine events that match your interests and schedule
         </p>
         <div className="bg-gray-900/50 p-6 rounded-lg space-y-4">
-          <div className="relative">
+          <div className="space-y-2">
             <div className="flex flex-wrap gap-2 mb-2">
               {interests.map((interest, index) => (
                 <span
@@ -208,142 +196,109 @@ export function HeroSearch({
                 </span>
               ))}
             </div>
-            <div className="relative">
-              <Input
-                ref={inputRef}
-                type="text"
-                placeholder={`Add up to ${3 - interests.length} interests...`}
-                className="bg-gray-800 border-gray-700"
-                value={interestSearchQuery}
-                onChange={(e) => {
-                  setInterestSearchQuery(e.target.value)
-                }}
-                onFocus={() => setShowInterests(true)}
-                onBlur={(e) => {
-                  if (document.activeElement !== e.target) {
-                    setTimeout(() => setShowInterests(false), 200)
-                  }
-                }}
-              />
-              {showInterests && interests.length < 3 && (
-                <div 
-                  ref={dropdownRef}
-                  className="absolute w-full mt-1 bg-gray-800 border border-gray-700 rounded-md shadow-lg z-10"
-                >
-                  <div className="max-h-[200px] overflow-y-auto">
-                    {filteredInterests.map((interest) => (
-                      <div
-                        key={interest}
-                        className="px-4 py-2 cursor-pointer hover:bg-blue-500/10 hover:text-blue-400 text-left"
-                        onMouseDown={(e) => {
-                          e.preventDefault()
-                          addInterest(interest)
-                        }}
-                      >
-                        {interest}
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )}
-            </div>
+            <Input
+              ref={inputRef}
+              type="text"
+              placeholder={`Add up to ${3 - interests.length} interests...`}
+              className="bg-gray-800 border-gray-700"
+              value={interestSearchQuery}
+              onChange={(e) => {
+                setInterestSearchQuery(e.target.value)
+              }}
+              onFocus={() => setShowInterests(true)}
+              onBlur={(e) => {
+                if (document.activeElement !== e.target) {
+                  setTimeout(() => setShowInterests(false), 200)
+                }
+              }}
+            />
           </div>
 
-          <div className="grid grid-cols-2 gap-4">
-            <div className="relative">
-              <div className="flex flex-wrap gap-2 mb-2">
-                {localSelectedDays.map((day) => (
-                  <span
-                    key={day.id}
-                    className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-sm bg-blue-500/20 text-blue-400 border border-blue-500/30"
+          <div className="w-full">
+            <div className="flex flex-wrap gap-2 mb-2">
+              {localSelectedDays.map((day) => (
+                <span
+                  key={day.id}
+                  className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-sm bg-blue-500/20 text-blue-400 border border-blue-500/30"
+                >
+                  {day.label}
+                  <button
+                    onClick={() => handleDaySelect(day)}
+                    className="hover:text-blue-300 transition-colors"
                   >
-                    {day.label}
-                    <button
-                      onClick={() => handleDaySelect(day)}
-                      className="hover:text-blue-300 transition-colors"
+                    <X className="h-3 w-3" />
+                  </button>
+                </span>
+              ))}
+            </div>
+            <Popover>
+              <PopoverTrigger asChild>
+                <Button
+                  variant="outline"
+                  className="w-full justify-start text-left font-normal bg-gray-800 border-gray-700"
+                >
+                  <CalendarIcon className="mr-2 h-4 w-4" />
+                  {localSelectedDays.length > 0 
+                    ? `${localSelectedDays.length} days selected`
+                    : "Select days"}
+                </Button>
+              </PopoverTrigger>
+              <PopoverContent 
+                className="w-[var(--radix-popover-trigger-width)] min-w-full p-4 bg-gray-800 border-gray-700"
+                style={{ width: 'var(--radix-popover-trigger-width)' }}
+              >
+                <div className="space-y-2">
+                  <div className="flex items-center space-x-2 pb-2 border-b border-gray-700">
+                    <Checkbox
+                      id="select-all-days"
+                      checked={localSelectedDays.length === availableDays.length}
+                      onCheckedChange={(checked) => {
+                        if (checked) {
+                          setLocalSelectedDays(availableDays);
+                          setSelectedDays(availableDays);
+                        } else {
+                          setLocalSelectedDays([]);
+                          setSelectedDays([]);
+                        }
+                      }}
+                      className="border-gray-600"
+                    />
+                    <label
+                      htmlFor="select-all-days"
+                      className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer"
                     >
-                      <X className="h-3 w-3" />
-                    </button>
-                  </span>
-                ))}
-              </div>
-              <Popover>
-                <PopoverTrigger asChild>
-                  <Button
-                    variant="outline"
-                    className="w-full justify-start text-left font-normal bg-gray-800 border-gray-700"
-                  >
-                    <CalendarIcon className="mr-2 h-4 w-4" />
-                    {localSelectedDays.length > 0 
-                      ? `${localSelectedDays.length} days selected`
-                      : "Select days"}
-                  </Button>
-                </PopoverTrigger>
-                <PopoverContent className="w-auto p-4 bg-gray-800 border-gray-700">
-                  <div className="space-y-2">
-                    <div className="flex items-center space-x-2 pb-2 border-b border-gray-700">
+                      Select All Days
+                    </label>
+                  </div>
+                  
+                  {availableDays.map((day) => (
+                    <div key={day.id} className="flex items-center space-x-2">
                       <Checkbox
-                        id="select-all-days"
-                        checked={localSelectedDays.length === availableDays.length}
-                        onCheckedChange={(checked) => {
-                          if (checked) {
-                            setLocalSelectedDays(availableDays);
-                            setSelectedDays(availableDays);
-                          } else {
-                            setLocalSelectedDays([]);
-                            setSelectedDays([]);
-                          }
-                        }}
+                        id={`day-${day.id}`}
+                        checked={localSelectedDays.some(d => d.id === day.id)}
+                        onCheckedChange={() => handleDaySelect(day)}
                         className="border-gray-600"
                       />
                       <label
-                        htmlFor="select-all-days"
+                        htmlFor={`day-${day.id}`}
                         className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer"
                       >
-                        Select All Days
+                        {day.label} - {day.date}
                       </label>
                     </div>
-                    
-                    {availableDays.map((day) => (
-                      <div key={day.id} className="flex items-center space-x-2">
-                        <Checkbox
-                          id={`day-${day.id}`}
-                          checked={localSelectedDays.some(d => d.id === day.id)}
-                          onCheckedChange={() => handleDaySelect(day)}
-                          className="border-gray-600"
-                        />
-                        <label
-                          htmlFor={`day-${day.id}`}
-                          className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer"
-                        >
-                          {day.label} - {day.date}
-                        </label>
-                      </div>
-                    ))}
-                  </div>
-                </PopoverContent>
-              </Popover>
-            </div>
-            <div className="relative flex items-end">
-              <Input 
-                type="number" 
-                placeholder="Budget" 
-                className="bg-gray-800 border-gray-700 h-10"
-                value={localBudget}
-                onChange={(e) => setLocalBudget(e.target.value)}
-              />
-            </div>
+                  ))}
+                </div>
+              </PopoverContent>
+            </Popover>
           </div>
 
-          <div className="mt-4">
-            <Button 
-              className="w-full relative bg-gradient-to-r from-purple-500 via-blue-500 to-pink-500 hover:from-purple-600 hover:via-blue-600 hover:to-pink-600 disabled:opacity-50 animate-gradient bg-[length:200%_200%]"
-              disabled={!isFilterEnabled()}
-              onClick={handleFilterClick}
-            >
-              <span className="relative z-10">Filter Events By Interests</span>
-            </Button>
-          </div>
+          <Button 
+            className="w-full relative bg-gradient-to-r from-purple-500 via-blue-500 to-pink-500 hover:from-purple-600 hover:via-blue-600 hover:to-pink-600 disabled:opacity-50 animate-gradient bg-[length:200%_200%]"
+            disabled={!isFilterEnabled()}
+            onClick={handleFilterClick}
+          >
+            <span className="relative z-10">Filter Events By Interests</span>
+          </Button>
 
           <div className="relative" ref={inputRef}>
             <div className="relative">

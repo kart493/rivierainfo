@@ -5,7 +5,7 @@ const steps = [
   {
     icon: Search,
     title: "Search Events",
-    description: "Enter your interests, set your date range and budget to find events that match your preferences",
+    description: "Enter your interests and set your date range to find events that match your preferences",
   },
   {
     icon: ClipboardList,

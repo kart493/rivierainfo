@@ -6,7 +6,7 @@ import { eventsOverlap } from "../utils/events"
 import { useState, useEffect } from "react"
 import { Checkbox } from "@/components/ui/checkbox"
 
-export function EventCombinations({ filteredEvents, selectedDays, budget, interests }) {
+export function EventCombinations({ filteredEvents, selectedDays, interests }) {
   const [selectedEvents, setSelectedEvents] = useState([])
   const [selectedTotal, setSelectedTotal] = useState(0)
 

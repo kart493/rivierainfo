@@ -10,7 +10,7 @@ export default function Home() {
   const [selectedEvent, setSelectedEvent] = useState(null)
   const [searchResults, setSearchResults] = useState([])
   const [selectedDays, setSelectedDays] = useState([])
-  const [budget, setBudget] = useState("")
+  // const [budget, setBudget] = useState("")
   const [interests, setInterests] = useState([])
   const [selectedEvents, setSelectedEvents] = useState([])
   const [selectedTotal, setSelectedTotal] = useState(0)
@@ -34,7 +34,6 @@ export default function Home() {
         onEventSelect={handleEventSelect}
         setSearchResults={setSearchResults}
         setSelectedDays={setSelectedDays}
-        setBudget={setBudget}
         setInterests={setInterests}
         selectedEvents={selectedEvents}
         resultsRef={resultsRef}
