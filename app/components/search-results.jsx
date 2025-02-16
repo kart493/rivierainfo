@@ -117,15 +117,25 @@ export const SearchResults = forwardRef(({
                           <CardContent className="space-y-4">
                             <p className="text-sm text-gray-300">{event.description}</p>
                             <div className="flex flex-wrap gap-2">
-                              {event.tags?.map((tag, tagIndex) => (
-                                <Badge 
-                                  key={tagIndex}
-                                  variant="secondary"
-                                  className="bg-blue-500/10 text-blue-400 border border-blue-500/20"
-                                >
-                                  {tag}
-                                </Badge>
-                              ))}
+                              {event.tags?.map((tag, tagIndex) => {
+                                // Handle both single tags and comma-separated tags
+                                const tags = tag.includes(',') ? tag.split(',').map(t => t.trim()) : [tag.trim()];
+                                const isCancelled = tags.some(t => t.toLowerCase() === 'cancelled');
+                                
+                                return tags.map((individualTag, i) => (
+                                  <Badge 
+                                    key={`${tagIndex}-${i}`}
+                                    variant="secondary"
+                                    className={`${
+                                      isCancelled || individualTag.toLowerCase() === 'cancelled'
+                                        ? 'bg-red-500/10 text-red-400 border border-red-500/20' 
+                                        : 'bg-blue-500/10 text-blue-400 border border-blue-500/20'
+                                    }`}
+                                  >
+                                    {individualTag}
+                                  </Badge>
+                                ));
+                              })}
                             </div>
                             <div className="flex justify-between items-center text-sm">
                               <div className="space-y-1">
@@ -197,15 +207,25 @@ export const SearchResults = forwardRef(({
                             <CardContent className="space-y-4">
                               <p className="text-sm text-gray-300">{event.description}</p>
                               <div className="flex flex-wrap gap-2">
-                                {event.tags?.map((tag, tagIndex) => (
-                                  <Badge 
-                                    key={tagIndex}
-                                    variant="secondary"
-                                    className="bg-blue-500/10 text-blue-400 border border-blue-500/20"
-                                  >
-                                    {tag}
-                                  </Badge>
-                                ))}
+                                {event.tags?.map((tag, tagIndex) => {
+                                  // Handle both single tags and comma-separated tags
+                                  const tags = tag.includes(',') ? tag.split(',').map(t => t.trim()) : [tag.trim()];
+                                  const isCancelled = tags.some(t => t.toLowerCase() === 'cancelled');
+                                  
+                                  return tags.map((individualTag, i) => (
+                                    <Badge 
+                                      key={`${tagIndex}-${i}`}
+                                      variant="secondary"
+                                      className={`${
+                                        isCancelled || individualTag.toLowerCase() === 'cancelled'
+                                          ? 'bg-red-500/10 text-red-400 border border-red-500/20' 
+                                          : 'bg-blue-500/10 text-blue-400 border border-blue-500/20'
+                                      }`}
+                                    >
+                                      {individualTag}
+                                    </Badge>
+                                  ));
+                                })}
                               </div>
                               <div className="flex justify-between items-center text-sm">
                                 <div className="space-y-1">
