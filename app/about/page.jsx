@@ -29,7 +29,7 @@ export default function AboutPage() {
               </div>
 
               <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
-                <p>Social Impact Entrepreneur | Innovator | Student Leader | mindfulness practitioner 🧘‍♂️</p>
+                <p>Social Impact Entrepreneur | Business Analyst | Innovator | Student Leader | Mindfulness Practitioner</p>
                 <p>I am an entrepreneur and student focused on creating frugal ♻️ and innovative solutions 🪔 in education, environment, health and wellness, and medical sectors. I lead several student initiatives promoting sustainability and social entrepreneurship, with one project progressing to an MoU with a university, currently in the paperwork phase.</p>
                 <p>I excel in team building 👥 to foster collaboration, business negotiation 💼 to secure strategic partnerships, and public speaking 🎤 to engage and inspire audiences. Skilled in risk management, I anticipate challenges and develop strategies to ensure project success.</p>
                 <p>Believing in the power of collaboration, I am eager to connect with like-minded innovators to expand my network.</p>
