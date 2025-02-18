@@ -15,7 +15,8 @@
         "id": "1",
         "cash_prize": "",
         "fee": "Rs. 100/-",
-        "entry_fee": ""
+        "entry_fee": "",
+        "Category": "MUSIC"
     },
     {
         "title": "TinyVerse",
@@ -32,7 +33,8 @@
         "id": "2",
         "cash_prize": "",
         "fee": "Rs. 250/-",
-        "entry_fee": ""
+        "entry_fee": "",
+        "Category": "ART DRAMA"
     },
     {
         "title": "Pitch Perfect - Eastern",
@@ -49,7 +51,8 @@
         "id": "3",
         "cash_prize": "",
         "fee": "Rs. 350/-",
-        "entry_fee": ""
+        "entry_fee": "",
+        "Category": "MUSIC"
     },
     {
         "title": "Lagori 2.0 (Seven stones)",

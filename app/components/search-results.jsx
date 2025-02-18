@@ -55,6 +55,16 @@ export const SearchResults = forwardRef(({
           </h2>
         </div>
 
+        {/* Add Google Sheets Link Button */}
+        <a
+          href="https://docs.google.com/spreadsheets/d/1WcG6wHRXgDAVhNaAqusNp0q7zxmX0mRztCZOxe49AK0/edit?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block w-full max-w-md mx-auto mt-4 px-6 py-3 text-center text-lg font-medium text-white bg-gradient-to-r from-blue-600 to-indigo-600 rounded-lg hover:from-blue-700 hover:to-indigo-700 transition-all duration-200 shadow-lg hover:shadow-xl"
+        >
+          View Complete Events Schedule 📅
+        </a>
+
         {results.length === 0 ? (
           <div className="text-center py-16 px-4 bg-gray-900/50 rounded-lg">
             <div className="max-w-md mx-auto space-y-6">
@@ -246,53 +256,65 @@ export const SearchResults = forwardRef(({
 
         {/* Selected Events Summary */}
         {selectedEvents.length > 0 && (
-          <Card className="bg-gray-900 border-gray-800 mt-8">
-            <CardHeader>
-              <CardTitle>Selected Events Summary</CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-4">
-              {selectedEvents
-                .sort((a, b) => a.date.localeCompare(b.date))
-                .map((event, idx) => (
-                  <div key={idx} className="space-y-2">
-                    <div className="flex justify-between items-center group">
-                      <div className="flex items-center gap-3">
-                        <button
-                          onClick={() => handleEventSelect(event, false)}
-                          className="text-gray-500 hover:text-red-400 transition-colors"
-                          aria-label="Remove event"
-                        >
-                          <X className="h-4 w-4" />
-                        </button>
-                        <div className="space-y-1">
-                          <span>{event.title}</span>
-                          <div className="flex gap-2 text-sm text-gray-400">
-                            <span>{dateToDay[event.date]} ({event.date})</span>
-                            <span>•</span>
-                            <span>{event.time}</span>
+          <>
+            <Card className="bg-gray-900 border-gray-800 mt-8">
+              <CardHeader>
+                <CardTitle>Selected Events Summary</CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                {selectedEvents
+                  .sort((a, b) => a.date.localeCompare(b.date))
+                  .map((event, idx) => (
+                    <div key={idx} className="space-y-2">
+                      <div className="flex justify-between items-center group">
+                        <div className="flex items-center gap-3">
+                          <button
+                            onClick={() => handleEventSelect(event, false)}
+                            className="text-gray-500 hover:text-red-400 transition-colors"
+                            aria-label="Remove event"
+                          >
+                            <X className="h-4 w-4" />
+                          </button>
+                          <div className="space-y-1">
+                            <span>{event.title}</span>
+                            <div className="flex gap-2 text-sm text-gray-400">
+                              <span>{dateToDay[event.date]} ({event.date})</span>
+                              <span>•</span>
+                              <span>{event.time}</span>
+                            </div>
                           </div>
                         </div>
+                        <span className="text-blue-400">₹{parseInt(event.fee?.replace(/[^0-9]/g, '') || '0')}</span>
                       </div>
-                      <span className="text-blue-400">₹{parseInt(event.fee?.replace(/[^0-9]/g, '') || '0')}</span>
+                      {event.link && (
+                        <a
+                          href={event.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-sm text-blue-400 hover:text-blue-300 inline-block ml-7"
+                        >
+                          View Event Details →
+                        </a>
+                      )}
                     </div>
-                    {event.link && (
-                      <a
-                        href={event.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-sm text-blue-400 hover:text-blue-300 inline-block ml-7"
-                      >
-                        View Event Details →
-                      </a>
-                    )}
-                  </div>
-                ))}
-              <div className="border-t border-gray-800 pt-4 flex justify-between items-center font-bold">
-                <span>Total</span>
-                <span className="text-blue-500">₹{selectedTotal}</span>
-              </div>
-            </CardContent>
-          </Card>
+                  ))}
+                <div className="border-t border-gray-800 pt-4 flex justify-between items-center font-bold">
+                  <span>Total</span>
+                  <span className="text-blue-500">₹{selectedTotal}</span>
+                </div>
+              </CardContent>
+            </Card>
+            
+            {/* Add Google Sheets Link Button */}
+            <a
+              href="https://docs.google.com/spreadsheets/d/1WcG6wHRXgDAVhNaAqusNp0q7zxmX0mRztCZOxe49AK0/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block w-full max-w-md mx-auto mt-8 px-6 py-3 text-center text-lg font-medium text-white bg-gradient-to-r from-blue-600 to-indigo-600 rounded-lg hover:from-blue-700 hover:to-indigo-700 transition-all duration-200 shadow-lg hover:shadow-xl"
+            >
+              View Complete Events Schedule 📅
+            </a>
+          </>
         )}
       </div>
     </section>
