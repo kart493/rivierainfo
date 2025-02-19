@@ -62,7 +62,7 @@ export const SearchResults = forwardRef(({
           rel="noopener noreferrer"
           className="block w-full max-w-md mx-auto mt-4 px-6 py-3 text-center text-lg font-medium text-white bg-gradient-to-r from-blue-600 to-indigo-600 rounded-lg hover:from-blue-700 hover:to-indigo-700 transition-all duration-200 shadow-lg hover:shadow-xl"
         >
-          View Complete Events Schedule 📅
+          View VTOP Category of Events 📄
         </a>
 
         {results.length === 0 ? (
@@ -312,7 +312,7 @@ export const SearchResults = forwardRef(({
               rel="noopener noreferrer"
               className="block w-full max-w-md mx-auto mt-8 px-6 py-3 text-center text-lg font-medium text-white bg-gradient-to-r from-blue-600 to-indigo-600 rounded-lg hover:from-blue-700 hover:to-indigo-700 transition-all duration-200 shadow-lg hover:shadow-xl"
             >
-              View Complete Events Schedule 📅
+              View VTOP Category of Events 📄
             </a>
           </>
         )}
